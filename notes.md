@@ -141,7 +141,7 @@ as the author-ownership model doesn't lend itself well to mass community edits.
 
 **This is included as an example of how in-class teaching practice shapes lesson development.**
 
-Our teaching relies on *live coding*.
+Software Carpentry teaching relies on *live coding*.
 Instead of presenting slides to learners,
 instructors write code as they go along,
 using whatever tools they would use in real life.
