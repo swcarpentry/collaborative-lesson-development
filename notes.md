@@ -22,8 +22,12 @@ in the sciences and humanities...
 
 ## Thoughts
 
--   Subject of this paper is writing and maintaining lessons, not delivering them.
-    -   So teaching practices will only be discussed when/as they affect lesson development.
+-   Subject of this paper is writing and maintaining lessons, not delivering them, but:
+    -   People are more willing and able to teach together if they build the lessons together.
+    -   Lessons need to be designed with particular delivery methods in mind,
+        so sharing practices (the "how") facilitates sharing and co-constructing material (the "what").
+    -   We will mention specific teaching practices when relevant to co-authoring,
+        but defer more detailed discussion to another paper.
 -   Who's collaborating?
     -   Lessons are under continuous development and repeated use (as opposed to created/taught once).
     -   Many contributors dispersed in space and time.
