@@ -106,7 +106,17 @@ in the sciences and humanities...
     -   Have a procedure for when things go wrong.
         -   Working in the open can be great, but can also suppress voices (unintentionally)
         -   At *Programming Historian*, we have an ombudsperson that a contributor can contact outside
-            of public channels
+            of public channels.
+1.  Collect and act on feedback at several scales.
+    -   Micro: notes on specific parts of existing lessons (e.g., typos or minor reorderings)
+        turn into tickets in a work-tracking system (e.g., GitHub issues).
+    -   Macro: use pre and post surveys to discover larger issues.
+        -   Do pre surveys immediately before so that information is still accurate when lesson delivered.
+        -   Do post surveys 30-60 days after (if possible) so that people have time to reflect,
+            and are more likely to give accurate feedback on what they learned rather than how entertained they were.
+        -   We are also very fond of sticky notes...
+    -   Purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
+        -   What people immersed in the lessons think needs fixing and what learners think needs fixing can be very different.
 1.  Publish each lesson periodically, and give people credit when you do.
     -   Give people credit in a digestible way as a reward for contributing.
     -   List the lesson's maintainers as editors (since everyone understands that role).
