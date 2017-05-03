@@ -28,7 +28,7 @@ in the sciences and humanities...
     -   Lessons are under continuous development and repeated use (as opposed to created/taught once).
     -   Many contributors dispersed in space and time.
         -   I.e., not physically together, and maintaining lesson over months or years.
-    -   Diverse contributors: people in different contexts, learners adding material, etc.
+    -   Diverse contributors: people in different contexts, interdisciplinary, learners adding material, etc.
 -   Collaborative and open are separate things.
     -   Lots of openly-licensed resources that aren't set up for collaborative development.
     -   Lots of collaborative development happening on closed-source materials.
@@ -51,16 +51,20 @@ in the sciences and humanities...
         as well as the overall design/layout of the lesson.
     -   Software Carpentry lessons are designed largely for in-class delivery (cases 1 and 2),
         but are used for independent study (case 3).
-    -   Programming Historian lessons are FIXME
+    -   Programming Historian lessons are designed for on-line consumption, and are developed
+        in an academic context (both users but also authors who have expectation of formal 
+        academic credit).
 
 ## Potential Rules
 
 1.  Reduce, re-use, recycle.
     -   Don't create a new lesson if there's one out there you can use and/or contribute to.
+    -   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
     -   Check the license/ask permission before re-using.
-        -   This applies to images, data, figures, etc., just as it does with any other kind of work.
+        -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
 1.  Remember that you are building a community, not a lesson.
     -   Lessons don't maintain themselves.
+    -   This should be made clear to contributors, with sustainability in mind.
     -   So focus (as with all online activities) has to be on creating a community.
 1.  Build lessons, not courses.
     -   Every instructor's needs are different, so build small chunks that can be repurposed in many ways.
@@ -90,6 +94,8 @@ in the sciences and humanities...
         -   Google Docs with comments is OK.
         -   GitHub with pull requests is better, but has a very large startup cost.
         -   Wikis that allow review for pending changes are a good balance.
+        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration
+            flounder on a technological choice!
         -   Support threaded discussion.
             -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
             -   Discuss use of GitHub issues as sub-channels.
@@ -97,15 +103,22 @@ in the sciences and humanities...
         -   An even gentler on-ramp for new contributors.
         -   The 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
         -   Requires someone to do triage (see earlier point about governance).
+    -   Have a procedure for when things go wrong.
+        -   Working in the open can be great, but can also suppress voices (unintentionally)
+        -   At *Programming Historian*, we have an ombudsperson that a contributor can contact outside
+            of public channels
 1.  Publish each lesson periodically, and give people credit when you do.
     -   Give people credit in a digestible way as a reward for contributing.
     -   List the lesson's maintainers as editors (since everyone understands that role).
     -   Tell people what the release schedule is.
     -   Give all contributors credit when you publish (having been clear up front who counts as a contributor).
+    -   Be open to candid conversations around credit --- not all employment contexts are the same. 
 1.  Tell people where else to look.
     -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
+    -   Make it part of a much broader conversation.
 1.  You can't help (or please) everyone.
-    -   Discuss minor disagreements, fork for major ones.
+    -   Discuss minor disagreements, fork for major ones (Ian thought: FILL OUT A BIT MORE - ``fork'' 
+        might not be clear?).
         -   If there are several complementary ways to explain something,
             or several points of views that can cohabit respectfully,
             present them side by side
