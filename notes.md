@@ -98,8 +98,11 @@ in the sciences and humanities...
         -   Google Docs with comments is OK.
         -   GitHub with pull requests is better, but has a very large startup cost.
         -   Wikis that allow review for pending changes are a good balance.
-        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration
-            flounder on a technological choice!
+        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
+            - for example, one author (Ian) uses the following platforms in his collaborations:
+                - with computer scientists and *Programming Historian*, uses git and the issue tracker for conversation
+                - with library collaborators, uses Google Docs to edit work collectively
+                - with digital humanists who he wrote a pedagogical book with, used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
         -   Support threaded discussion.
             -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
             -   Discuss use of GitHub issues as sub-channels.
