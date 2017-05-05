@@ -86,6 +86,7 @@ in the sciences and humanities...
 1.  Be clear who your lesson is for.
     -   Describe prerequisite knowledge, equipment or software required, etc.
     -   Learner profiles are often clearer than itemized lists.
+        -   Thinking systematically about 'difficulty' levels can help manage expectations – at *Programming Historian* we use "beginner," "intermediate," and "advanced lessons," which helps authors pitch properly.
 1.  Encourage and enable lots of little contributions.
     -   Steady improvement and adaptation increases longevity of lesson.
     -   Provide an on-ramp for new contributors.
