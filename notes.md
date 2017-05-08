@@ -135,7 +135,7 @@ in the sciences and humanities...
     -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
     -   Make it part of a much broader conversation.
 1.  You can't help (or please) everyone.
-    -   Discuss minor disagreements, fork and begin evolving the lesson in different ways if they cannot be resolved.
+    -   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
         -   If there are several complementary ways to explain something,
             or several points of views that can cohabit respectfully,
             present them side by side
