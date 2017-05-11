@@ -86,6 +86,7 @@ in the sciences and humanities...
 1.  Be clear who your lesson is for.
     -   Describe prerequisite knowledge, equipment or software required, etc.
     -   Learner profiles are often clearer than itemized lists.
+        -   Thinking systematically about 'difficulty' levels can help manage expectations – at *Programming Historian* we use "beginner," "intermediate," and "advanced lessons," which helps authors pitch properly.
 1.  Encourage and enable lots of little contributions.
     -   Steady improvement and adaptation increases longevity of lesson.
     -   Provide an on-ramp for new contributors.
@@ -98,8 +99,11 @@ in the sciences and humanities...
         -   Google Docs with comments is OK.
         -   GitHub with pull requests is better, but has a very large startup cost.
         -   Wikis that allow review for pending changes are a good balance.
-        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration
-            flounder on a technological choice!
+        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
+            - for example, one author (Ian) uses the following platforms in his collaborations:
+                - with computer scientists and *Programming Historian*, uses git and the issue tracker for conversation
+                - with library collaborators, uses Google Docs to edit work collectively
+                - with digital humanists who he wrote a pedagogical book with, used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
         -   Support threaded discussion.
             -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
             -   Discuss use of GitHub issues as sub-channels.
@@ -131,8 +135,7 @@ in the sciences and humanities...
     -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
     -   Make it part of a much broader conversation.
 1.  You can't help (or please) everyone.
-    -   Discuss minor disagreements, fork for major ones (Ian thought: FILL OUT A BIT MORE - ``fork'' 
-        might not be clear?).
+    -   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
         -   If there are several complementary ways to explain something,
             or several points of views that can cohabit respectfully,
             present them side by side
@@ -145,6 +148,7 @@ in the sciences and humanities...
             if enough people disagree strongly about how the lesson should be managed,
             fork.
         -   Which is a strong argument in favor of open licensing.
+        -   But remember at the end of the day we all share the same vision of collaborative lesson development!
 
 ## Mechanics
 
