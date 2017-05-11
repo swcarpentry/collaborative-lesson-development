@@ -20,32 +20,32 @@ The software community's model of collaborative code development is an alternati
 The authors first encountered it in the context of lessons on basic lab skills for research computing
 in the sciences and humanities...
 
-## Thoughts
+## Preamble
 
--   Subject of this paper is writing and maintaining lessons, not delivering them, but:
+1.  Subject of this paper is writing and maintaining lessons, not delivering them, but:
     -   People are more willing and able to teach together if they build the lessons together.
     -   Lessons need to be designed with particular delivery methods in mind,
         so sharing practices (the "how") facilitates sharing and co-constructing material (the "what").
     -   We will mention specific teaching practices when relevant to co-authoring,
         but defer more detailed discussion to another paper.
--   Who's collaborating?
+2.  Who's collaborating?
     -   Lessons are under continuous development and repeated use (as opposed to created/taught once).
     -   Many contributors dispersed in space and time.
         -   I.e., not physically together, and maintaining lesson over months or years.
     -   Diverse contributors: people in different contexts, interdisciplinary, learners adding material, etc.
--   Collaborative and open are separate things.
+3.  Collaborative and open are separate things.
     -   Lots of openly-licensed resources that aren't set up for collaborative development.
     -   Lots of collaborative development happening on closed-source materials.
     -   In practice, there tends to be correlation.
--   Mike Caulfield's notion of [choral explanations](https://hapgood.us/2016/05/13/choral-explanations/):
+4.  Mike Caulfield's notion of [choral explanations](https://hapgood.us/2016/05/13/choral-explanations/):
     -   Stack Overflow, Quota, etc. are successful because they provide multiple explanations.
         -   Different levels and/or different approaches are best for different audiences.
     -   Collaboration lends itself well to building a chorus rather than a linear lesson.
     -   But beware of maintenance (in particular, maintaining consistency).
--   Building is easy - maintaining is hard.
+5.  Building is easy - maintaining is hard.
     -   As with software, the first version is only a small fraction of lifetime investment.
     -   Without pruning and updating, lessons go stale.
--   Who are lessons for?
+6.  Who are lessons for?
     -   Instructors who will be teaching workshops from the materials
     -   Students from said workshops who will reference the materials afterwards
     -   People who weren't in the lesson but who use the materials to learn on their own
@@ -59,98 +59,120 @@ in the sciences and humanities...
         in an academic context (both users but also authors who have expectation of formal 
         academic credit).
 
-## Potential Rules
+## 1) Be clear who your lesson is for.
 
-1.  Reduce, re-use, recycle.
-    -   Don't create a new lesson if there's one out there you can use and/or contribute to.
-    -   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
-    -   Check the license/ask permission before re-using.
-        -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
-1.  Remember that you are building a community, not a lesson.
-    -   Lessons don't maintain themselves.
-    -   This should be made clear to contributors, with sustainability in mind.
-    -   So focus (as with all online activities) has to be on creating a community.
-1.  Build lessons, not courses.
-    -   Every instructor's needs are different, so build small chunks that can be repurposed in many ways.
-    -   Analogy: libraries of re-usable functions are more useful than monolithic applications.
-1.  Teach people how to do things the right way (or at least *some* way).
-    -   Large part of Software Carpentry's success was instructor training, which taught:
-        -   how to build lessons (so that everyone's using more or less the same process)
-        -   how to deliver lessons (so that everyone knows what they're trying to build *for*)
-    -   A natural complement to Software Carpentry's core mission
-        -   Scientists shouldn't have to teach themselves the basics of programming
-        -   So why should they have to teach themselves how to teach?
-    -   Example: design the lesson backward, but describe it forward.
-        -   Quick review of reverse instructional design.
-        -   But describe forward (since that's comprehension order).
-1.  Be clear who your lesson is for.
-    -   Describe prerequisite knowledge, equipment or software required, etc.
-    -   Learner profiles are often clearer than itemized lists.
-        -   Thinking systematically about 'difficulty' levels can help manage expectations – at *Programming Historian* we use "beginner," "intermediate," and "advanced lessons," which helps authors pitch properly.
-1.  Encourage and enable lots of little contributions.
-    -   Steady improvement and adaptation increases longevity of lesson.
-    -   Provide an on-ramp for new contributors.
-    -   Be explicit about the license, code of conduct, governance (esp. who can do what), and contribution procedure.
-        -   Lower the social barriers to contribution.
-        -   Copy existing ones rather than creating your own.
-        -   Pointers to models.
-    -   Use tools and formats that support pre-merge review.
-        -   Lower the technical barriers to contribution.
-        -   Google Docs with comments is OK.
-        -   GitHub with pull requests is better, but has a very large startup cost.
-        -   Wikis that allow review for pending changes are a good balance.
-        -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
-            - for example, one author (Ian) uses the following platforms in his collaborations:
-                - with computer scientists and *Programming Historian*, uses git and the issue tracker for conversation
-                - with library collaborators, uses Google Docs to edit work collectively
-                - with digital humanists who he wrote a pedagogical book with, used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
-        -   Support threaded discussion.
-            -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
-            -   Discuss use of GitHub issues as sub-channels.
-    -   Make it easy for people to submit errata and suggestions.
-        -   An even gentler on-ramp for new contributors.
-        -   The 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
-        -   Requires someone to do triage (see earlier point about governance).
-    -   Have a procedure for when things go wrong.
-        -   Working in the open can be great, but can also suppress voices (unintentionally)
-        -   At *Programming Historian*, we have an ombudsperson that a contributor can contact outside
-            of public channels.
-1.  Collect and act on feedback at several scales.
-    -   Micro: notes on specific parts of existing lessons (e.g., typos or minor reorderings)
-        turn into tickets in a work-tracking system (e.g., GitHub issues).
-    -   Macro: use pre and post surveys to discover larger issues.
-        -   Do pre surveys immediately before so that information is still accurate when lesson delivered.
-        -   Do post surveys 30-60 days after (if possible) so that people have time to reflect,
-            and are more likely to give accurate feedback on what they learned rather than how entertained they were.
-        -   We are also very fond of sticky notes...
-    -   Purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
-        -   What people immersed in the lessons think needs fixing and what learners think needs fixing can be very different.
-1.  Publish each lesson periodically, and give people credit when you do.
-    -   Give people credit in a digestible way as a reward for contributing.
-    -   List the lesson's maintainers as editors (since everyone understands that role).
-    -   Tell people what the release schedule is.
-    -   Give all contributors credit when you publish (having been clear up front who counts as a contributor).
-    -   Be open to candid conversations around credit --- not all employment contexts are the same. 
-1.  Tell people where else to look.
-    -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
-    -   Make it part of a much broader conversation.
-1.  You can't help (or please) everyone.
-    -   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
-        -   If there are several complementary ways to explain something,
-            or several points of views that can cohabit respectfully,
-            present them side by side
-            (just as with any other kind of lesson, essay, etc.).
-            -   Cf. choral explanations.
-        -   If there are major disagreements that can't cohabit respectfully,
-            fork the lesson,
-            i.e., have the groups go their separate ways.
-        -   Same applies to governance:
-            if enough people disagree strongly about how the lesson should be managed,
-            fork.
-        -   Which is a strong argument in favor of open licensing.
-        -   But remember at the end of the day we all share the same vision of collaborative lesson development!
+-   Describe prerequisite knowledge, equipment or software required, etc.
+-   Learner profiles are often clearer than itemized lists.
+    -   Thinking systematically about 'difficulty' levels can help manage expectations
+    –   at Programming Historian we use "beginner," "intermediate," and "advanced" lessons,
+        which helps authors pitch properly.
+
+## 2) Remember that you are building a community, not a lesson.
+
+-   Lessons don't maintain themselves.
+-   This should be made clear to contributors, with sustainability in mind.
+-   So focus (as with all online activities) has to be on creating a community.
+
+## 3) Reduce, re-use, recycle.
+
+-   Don't create a new lesson if there's one out there you can use and/or contribute to.
+-   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
+-   Check the license/ask permission before re-using.
+    -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
+
+## 4) Build lessons, not courses.
+
+-   Every instructor's needs are different, so build small chunks that can be repurposed in many ways.
+-   Analogy: libraries of re-usable functions are more useful than monolithic applications.
+
+## 5) Encourage and enable lots of little contributions.
+-   Steady improvement and adaptation increases longevity of lesson.
+-   Provide an on-ramp for new contributors.
+-   Be explicit about the license, code of conduct, governance (esp. who can do what), and contribution procedure.
+    -   Lower the social barriers to contribution.
+    -   Copy existing ones rather than creating your own.
+    -   Pointers to models.
+-   Use tools and formats that support pre-merge review.
+    -   Lower the technical barriers to contribution.
+    -   Google Docs with comments is OK.
+    -   GitHub with pull requests is better, but has a very large startup cost.
+    -   Wikis that allow review for pending changes are a good balance.
+    -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
+        -   for example, one author (Ian) uses the following platforms in his collaborations:
+            -   with computer scientists and Programming Historian, uses git and the issue tracker for conversation
+            -   with library collaborators, uses Google Docs to edit work collectively
+            -   with digital humanists who he wrote a pedagogical book with,
+                used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
+    -   Support threaded discussion.
+        -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
+        -   Discuss use of GitHub issues as sub-channels.
+-   Make it easy for people to submit errata and suggestions.
+    -   An even gentler on-ramp for new contributors.
+    -   The 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
+    -   Requires someone to do triage (see earlier point about governance).
+-   Have a procedure for when things go wrong.
+    -   Working in the open can be great, but can also suppress voices (unintentionally)
+    -   At Programming Historian,
+        we have an ombudsperson that a contributor can contact outside of public channels.
+
+## 6) Teach people how to do things the right way (or at least *some* way).
+
+-   Large part of Software Carpentry's success was instructor training, which taught:
+    -   how to build lessons (so that everyone's using more or less the same process)
+    -   how to deliver lessons (so that everyone knows what they're trying to build *for*)
+-   A natural complement to Software Carpentry's core mission
+    -   Scientists shouldn't have to teach themselves the basics of programming
+    -   So why should they have to teach themselves how to teach?
+-   Example: design the lesson backward, but describe it forward.
+    -   Quick review of reverse instructional design.
+    -   But describe forward (since that's comprehension order).
+
+## 7) Publish each lesson periodically, and give people credit when you do.
+
+-   Give people credit in a digestible way as a reward for contributing.
+-   List the lesson's maintainers as editors (since everyone understands that role).
+-   Tell people what the release schedule is.
+-   Give all contributors credit when you publish (having been clear up front who counts as a contributor).
+-   Be open to candid conversations around credit --- not all employment contexts are the same. 
+
+## 8) Collect and act on feedback at several scales.
+
+-   Micro: notes on specific parts of existing lessons (e.g., typos or minor reorderings)
+    turn into tickets in a work-tracking system (e.g., GitHub issues).
+-   Macro: use pre and post surveys to discover larger issues.
+    -   Do pre surveys immediately before so that information is still accurate when lesson delivered.
+    -   Do post surveys 30-60 days after (if possible) so that people have time to reflect,
+        and are more likely to give accurate feedback on what they learned rather than how entertained they were.
+    -   We are also very fond of sticky notes...
+-   Purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
+    -   What people immersed in the lessons think needs fixing and what learners think needs fixing can be very different.
+
+## 9) Tell people where else to look.
+
+-   The lesson is a beginning, not an end, so point them at similar material and where to go next.
+-   Make it part of a much broader conversation.
+
+## 10) Remember: you can't help (or please) everyone.
+
+-   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
+    -   If there are several complementary ways to explain something,
+        or several points of views that can cohabit respectfully,
+        present them side by side
+        (just as with any other kind of lesson, essay, etc.).
+        -   Cf. choral explanations.
+    -   If there are major disagreements that can't cohabit respectfully,
+        fork the lesson,
+        i.e., have the groups go their separate ways.
+-   Same applies to governance:
+    if enough people disagree strongly about how the lesson should be managed, fork.
+    -   Which is a strong argument in favor of open licensing.
+    -   But remember at the end of the day we all share the same vision of collaborative lesson development.
 
 ## Mechanics
+
+### Software/Data Carpentry
+
+FIXME: need a description/summary.
 
 ### Programming Historian
 
