@@ -86,34 +86,14 @@ in the sciences and humanities...
 -   Analogy: libraries of re-usable functions are more useful than monolithic applications.
 
 ## 5) Encourage and enable lots of little contributions.
--   Steady improvement and adaptation increases longevity of lesson.
--   Provide an on-ramp for new contributors.
--   Be explicit about the license, code of conduct, governance (esp. who can do what), and contribution procedure.
-    -   Lower the social barriers to contribution.
-    -   Copy existing ones rather than creating your own.
-    -   Pointers to models.
--   Use tools and formats that support pre-merge review.
-    -   Lower the technical barriers to contribution.
-    -   Google Docs with comments is OK.
-    -   GitHub with pull requests is better, but has a very large startup cost.
-    -   Wikis that allow review for pending changes are a good balance.
-    -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
-        -   for example, one author (Ian) uses the following platforms in his collaborations:
-            -   with computer scientists and Programming Historian, uses git and the issue tracker for conversation
-            -   with library collaborators, uses Google Docs to edit work collectively
-            -   with digital humanists who he wrote a pedagogical book with,
-                used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
-    -   Support threaded discussion.
-        -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
-        -   Discuss use of GitHub issues as sub-channels.
--   Make it easy for people to submit errata and suggestions.
-    -   An even gentler on-ramp for new contributors.
-    -   The 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
-    -   Requires someone to do triage (see earlier point about governance).
--   Have a procedure for when things go wrong.
-    -   Working in the open can be great, but can also suppress voices (unintentionally)
-    -   At Programming Historian,
-        we have an ombudsperson that a contributor can contact outside of public channels.
+
+It takes a village to ensure a long-lasting lesson. Steady improvement and adaptation of a lesson will make it live longer. Ensuring this, however, is not straightforward.
+
+Making the process explicit is key. New contributors require an on-ramp to understand the process of tweaking and adapting lessons; licensing, code of conduct, governance, and contribution procedure need to all be explicit rather than implicit. All of this serves to lower the social barriers to contribution.
+
+Tools can help, especially if they support pre-merge review. Yet some of these tools come with a considerable up-front learning curve. GitHub with pull requests may be ideal, but allowing people to edit a Google Doc, or to facilitate Wiki-based editing, can help get conversations started. In a pinch, work with contributors to find a comfort zone –-- don't let a collaboration flounder on technological choice. But make sure not to overwhelm either; threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
+
+Ultimately, community dynamics are more important than platform. We follow the 90/9/1 rule (90% of people watch, 9% discuss, 1% do). This requires a gentle on-ramp for new contributors, that we make it easy for people to submit errata and suggestions, and that editors may need to do triage to ensure that voices are heard. Finally, with so many voices and contributions come caution. Working in the open can be great, but can also unintentionally suppress voices. At _Programming Historian_, a popular digital humanities technical site, an ombudsperson is available for private chats and facilitation. Many voices are great, as long as they can all be considered.
 
 ## 6) Teach people how to do things the right way (or at least *some* way).
 
