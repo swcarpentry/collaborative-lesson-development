@@ -137,15 +137,22 @@ in the sciences and humanities...
 
 ## 8) Collect and act on feedback at several scales.
 
--   Micro: notes on specific parts of existing lessons (e.g., typos or minor reorderings)
-    turn into tickets in a work-tracking system (e.g., GitHub issues).
--   Macro: use pre and post surveys to discover larger issues.
-    -   Do pre surveys immediately before so that information is still accurate when lesson delivered.
-    -   Do post surveys 30-60 days after (if possible) so that people have time to reflect,
-        and are more likely to give accurate feedback on what they learned rather than how entertained they were.
-    -   We are also very fond of sticky notes...
--   Purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
-    -   What people immersed in the lessons think needs fixing and what learners think needs fixing can be very different.
+The purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
+What people immersed in the lessons think needs fixing can often differ from what learners think needs fixing.
+
+Micro-scale feedback can be gathered by an instructor while teaching a particular lesson.
+Learners might provide feedback on things like typographical errors,
+clarity/ease of quiz questions and/or the order in which topics are presented,
+which the instructor can enter into a work-tracking system (e.g. GitHub issues) at the end of class.
+As well as encouraging direct verbal feedback,
+it's a good idea to provide learners with a means to provide feedback anonymously during class 
+(e.g. small pieces of paper like sticky notes).
+
+Pre- and post-class surveys can be used to discover larger macro-scale issues.
+If possible, it's a good idea to conduct the post-class survey 30-60 days after the fact.
+This allows people time to reflect,
+meaning they are more likely to give accurate feedback on what they learned
+rather than how entertained they were.
 
 ## 9) Tell people where else to look.
 
