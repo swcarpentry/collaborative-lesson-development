@@ -89,7 +89,7 @@ in the sciences and humanities...
 
 It takes a village to ensure a long-lasting lesson. Steady improvement and adaptation of a lesson will make it live longer. Ensuring this, however, is not straightforward.
 
-Making the process explicit is key. New contributors require an on-ramp to understand the process of tweaking and adapting lessons; licensing, code of conduct, governance, and contribution procedure need to all be explicit rather than implicit. All of this serves to lower the social barriers to contribution.
+Making the process explicit is key. New contributors require a straightforward and transparent introduction to understand the process of tweaking and adapting lessons; licensing, code of conduct, governance, and contribution procedure need to all be explicit rather than implicit. All of this serves to lower the social barriers to contribution.
 
 Tools can help, especially if they support pre-merge review. Yet some of these tools come with a considerable up-front learning curve. GitHub with pull requests may be ideal, but allowing people to edit a Google Doc, or to facilitate Wiki-based editing, can help get conversations started. In a pinch, work with contributors to find a comfort zone –-- don't let a collaboration flounder on technological choice. But make sure not to overwhelm either; threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
 
