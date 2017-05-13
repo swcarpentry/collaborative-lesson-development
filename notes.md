@@ -75,7 +75,7 @@ in the sciences and humanities...
 
 ## 3) Reduce, re-use, recycle.
 
-Don't create a new lesson if there is an existing one that you can use or contribute to. Just as a scholar would not write a paper without a literature review, the same holds for lessons. Before writing that introduction to the Bash command line, for example, do a search? Has anybody else written it? Is it complementary to your goals? Could it be tweaked or modified to meet your own goals? This collaborative ethos can help _reduce_ the workload of the scientific community.
+Don't create a new lesson if there is an existing one that you can use or contribute to. Just as a scholar would not write a paper without a literature review, the same holds for lessons. Before writing that introduction to the Bash command line, for example, do a search? Has anybody else written it? Is it complementary to your goals? Could it be tweaked or modified to meet your own goals? Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? This collaborative ethos can help _reduce_ the workload of the scientific community.
 
 But before _re-using_ content, make sure to check. Is the lesson licensed in an open manner? Both _Programming Historian_ and _Software Carpentry_, for example, license their material under the [CC-BY license](https://creativecommons.org/licenses/by/2.0/). This allows people to share and adapt material for any purpose, even commercial ones, without asking permissions as long as they continue to share the content in a similar manner. Software Carpentry is explicit that one does not need to ask permission. But otherwise, please ask.
 
