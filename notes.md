@@ -75,10 +75,13 @@ in the sciences and humanities...
 
 ## 3) Reduce, re-use, recycle.
 
--   Don't create a new lesson if there's one out there you can use and/or contribute to.
--   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
--   Check the license/ask permission before re-using.
-    -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
+Don't create a new lesson if there is an existing one that you can use or contribute to. Just as a scholar would not write a paper without a literature review, the same holds for lessons. Before writing that introduction to the Bash command line, for example, do a search: has anybody else written it? Is it complementary to your goals? Could it be tweaked or modified to meet your own goals? Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
+
+But before re-using content, make sure to check that the lesson is licensed in an open manner? Both Programming Historian and Software Carpentry, for example, license their material under the [CC-BY license](https://creativecommons.org/licenses/by/2.0/). This allows people to share and adapt material for any purpose, even commercial ones, without asking permissions as long as they continue to share the content in a similar manner. Software Carpentry is explicit that one does not need to ask permission. But otherwise, please ask.
+
+The same questions of re-use come when thinking about recycling content of a lesson: images, data, figure, or code. Does the license cover that as well? If not, then ask permission. 
+
+As you collaboratively develop your own lessons, make sure to think about the collaborative contexts of the entire field.
 
 ## 4) Build lessons, not courses.
 
