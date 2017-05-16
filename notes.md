@@ -75,13 +75,33 @@ in the sciences and humanities...
 
 ## 3) Reduce, re-use, recycle.
 
-Don't create a new lesson if there is an existing one that you can use or contribute to. Just as a scholar would not write a paper without a literature review, the same holds for lessons. Before writing that introduction to the Bash command line, for example, do a search: has anybody else written it? Is it complementary to your goals? Could it be tweaked or modified to meet your own goals? Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
+Don't create a new lesson if there is an existing one that you can use or contribute to.
+Just as a scholar would not write a paper without a literature review,
+the same holds for lessons.
+Before writing that introduction to the Bash command line,
+for example,
+do a search:
+has anybody else written it?
+Is it complementary to your goals?
+Could it be tweaked or modified to meet your own goals?
+Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
 
 -   This is a good place to talk about discoverability as well as licensing
 
-But before re-using content, make sure to check that the lesson is licensed in an open manner? Both Programming Historian and Software Carpentry, for example, license their material under the [CC-BY license](https://creativecommons.org/licenses/by/2.0/). This allows people to share and adapt material for any purpose, even commercial ones, without asking permissions as long as they continue to share the content in a similar manner. Software Carpentry is explicit that one does not need to ask permission. But otherwise, please ask.
+Before re-using content,
+make sure to check that the lesson is licensed in an open manner.
+Both Programming Historian and Software Carpentry license their material under
+the [CC-BY license](https://creativecommons.org/licenses/by/2.0/).
+This allows people to share and adapt material for any purpose,
+even commercial ones,
+without asking permissions as long as they continue to share the content in a similar manner.
 
-The same questions of re-use come when thinking about recycling content of a lesson: images, data, figure, or code. Does the license cover that as well? If not, then ask permission. 
+The same questions of re-use come when thinking about recycling content of a lesson,
+such as images, data, figure, or code.
+Does the license cover that as well?
+If not,
+then ask permission,
+just as you would for any other material.
 
 As you collaboratively develop your own lessons, make sure to think about the collaborative contexts of the entire field.
 
@@ -107,11 +127,37 @@ it can be much easier for people to find them and integrate them.
 
 It takes a village to ensure the steady improvement and adaptation that will give a lesson a long life. Ensuring this, however, is not straightforward.
 
-Making the process explicit is key. New contributors require a straightforward and transparent introduction to understand the process of tweaking and adapting lessons. Licensing, code of conduct, governance, and contribution procedure need to all be explicit rather than implicit to lower the social barriers to contribution.
+Making the process explicit is key.
+New contributors require a straightforward and transparent introduction
+to understand the process of tweaking and adapting lessons.
+Licensing, code of conduct, governance, and contribution procedure all need to be explicit rather than implicit
+to lower the social barriers to contribution.
 
-Tools can help, especially if they support pre-merge review. Yet some of these tools come with a considerable up-front learning curve. GitHub with pull requests may be ideal, but allowing people to edit a Google Doc, or to facilitate Wiki-based editing, can help get conversations started. In a pinch, work with contributors to find a comfort zone –-- don't let a collaboration flounder on technological choice. But make sure not to overwhelm either; threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
+Tools can help,
+especially if they support pre-merge review.
+Yet some of these tools come with a considerable up-front learning curve.
+GitHub with pull requests may be ideal,
+but allowing people to edit a Google Doc,
+or to facilitate Wiki-based editing,
+can help get conversations started.
+In a pinch,
+work with contributors to find a comfort zone:
+don't let a collaboration flounder on technological choice.
+But make sure not to overwhelm either:
+threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
 
-Ultimately, community dynamics are more important than platform. We have seen the 90/9/1 rule (90% of people watch, 9% discuss, 1% do). This requires a gentle on-ramp for new contributors, that we make it easy for people to submit errata and suggestions, and that editors may need to do triage to ensure that voices are heard. Finally, with so many voices and contributions come caution. Working in the open can be great, but can also unintentionally suppress voices. At _Programming Historian_, a popular digital humanities technical site, an ombudsperson is available for private chats and facilitation. Many voices are great, as long as they can all be considered.
+Ultimately,
+community dynamics are more important than platform.
+We have seen the 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
+This requires a gentle on-ramp for new contributors,
+that we make it easy for people to submit errata and suggestions,
+and that editors may need to do triage to ensure that voices are heard.
+Finally, with so many voices and contributions come caution.
+Working in the open can be great,
+but can also unintentionally suppress voices.
+At Programming Historian,
+for example,
+an ombudsperson is available for private chats and facilitation.
 
 ## 6) Teach people how to do things the right way (or at least *some* way).
 
