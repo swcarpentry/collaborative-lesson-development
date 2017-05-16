@@ -86,7 +86,7 @@ Is it complementary to your goals?
 Could it be tweaked or modified to meet your own goals?
 Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
 
--   This is a good place to talk about discoverability as well as licensing
+FIXME: This is a good place to talk about discoverability as well as licensing
 
 Before re-using content,
 make sure to check that the lesson is licensed in an open manner.
@@ -122,6 +122,9 @@ and if lessons clearly signal what they cover (rule 1).
 In particular,
 if lessons reference specific points in the model curriculum guidelines promulgated by many professional societies,
 it can be much easier for people to find them and integrate them.
+
+Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
+so this rule further emphasizes the importance of rule 1.
 
 ## 5) Encourage and enable lots of little contributions.
 
@@ -201,6 +204,11 @@ If possible, it's a good idea to conduct the post-class survey 30-60 days after 
 This allows people time to reflect,
 meaning they are more likely to give accurate feedback on what they learned
 rather than how entertained they were.
+
+Pre- and post- class surveys also are essential in focusing in on the audience for a given lesson.
+It can sometimes be difficult for lesson developers to understand the frame of a given learner
+so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
+that can be expanded on or acknowledged.
 
 ## 9) Tell people where else to look.
 
