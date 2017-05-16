@@ -135,9 +135,13 @@ clarity/ease of quiz questions and/or the order in which topics are presented,
 which the instructor can enter into a work-tracking system (e.g. GitHub issues) at the end of class.
 As well as encouraging direct verbal feedback,
 it's a good idea to provide learners with a means to provide feedback anonymously during class 
-(e.g. small pieces of paper like sticky notes).
+(e.g. on small pieces of paper like sticky notes).
 
 Pre- and post-class surveys can be used to discover larger macro-scale issues.
+These issues often relate to the fact that it can be difficult for lesson developers
+to fully understand the frame of reference of their audience.
+For instance, a lesson might inadvertently assume prior knowledge that many learners don't have,
+which is information that can be collected easily in a survey.
 If possible, it's a good idea to conduct the post-class survey 30-60 days after the fact.
 This allows people time to reflect,
 meaning they are more likely to give accurate feedback on what they learned
