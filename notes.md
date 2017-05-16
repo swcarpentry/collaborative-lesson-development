@@ -96,6 +96,13 @@ This task is greatly simplified if existing courses on mathematics,
 physics and chemistry consist of numerous small, discrete lessons,
 as opposed to a few large, monolithic lessons.
 
+Note that doing this shifts the instructor's burden from writing to finding and synthesizing.
+Both of which are easier if lessons have been designed by people with a shared world-view (rule 6),
+and if lessons clearly signal what they cover (rule 1).
+In particular,
+if lessons reference specific points in the model curriculum guidelines promulgated by many professional societies,
+it can be much easier for people to find them and integrate them.
+
 ## 5) Encourage and enable lots of little contributions.
 
 It takes a village to ensure the steady improvement and adaptation that will give a lesson a long life. Ensuring this, however, is not straightforward.
