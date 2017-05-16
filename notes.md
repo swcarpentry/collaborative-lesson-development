@@ -79,6 +79,7 @@ in the sciences and humanities...
 -   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
 -   Check the license/ask permission before re-using.
     -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
+-   This is a good place to talk about discoverability as well as licensing
 
 ## 4) Build lessons, not courses.
 
@@ -86,6 +87,7 @@ in the sciences and humanities...
 -   Analogy: libraries of re-usable functions are more useful than monolithic applications.
 
 ## 5) Encourage and enable lots of little contributions.
+
 -   Steady improvement and adaptation increases longevity of lesson.
 -   Provide an on-ramp for new contributors.
 -   Be explicit about the license, code of conduct, governance (esp. who can do what), and contribution procedure.
