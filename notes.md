@@ -87,8 +87,14 @@ As you collaboratively develop your own lessons, make sure to think about the co
 
 ## 4) Build lessons, not courses.
 
--   Every instructor's needs are different, so build small chunks that can be repurposed in many ways.
--   Analogy: libraries of re-usable functions are more useful than monolithic applications.
+Every instructor's needs are different,
+so build small chunks that can be re-purposed in many ways. 
+A university lecturer in meteorology, for instance,
+might construct a course by bringing together lessons on differential equations,
+fluid mechanics and absorption spectroscopy. 
+This task is greatly simplified if existing courses on mathematics, 
+physics and chemistry consist of numerous small, discrete lessons,
+as opposed to a few large, monolithic lessons.
 
 ## 5) Encourage and enable lots of little contributions.
 
