@@ -75,11 +75,15 @@ in the sciences and humanities...
 
 ## 3) Reduce, re-use, recycle.
 
--   Don't create a new lesson if there's one out there you can use and/or contribute to.
--   Just as you wouldn't write a paper without a literature review, the same holds for lessons!
--   Check the license/ask permission before re-using.
-    -   This applies to images, data, figures, code, etc., just as it does with any other kind of work.
+Don't create a new lesson if there is an existing one that you can use or contribute to. Just as a scholar would not write a paper without a literature review, the same holds for lessons. Before writing that introduction to the Bash command line, for example, do a search: has anybody else written it? Is it complementary to your goals? Could it be tweaked or modified to meet your own goals? Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
+
 -   This is a good place to talk about discoverability as well as licensing
+
+But before re-using content, make sure to check that the lesson is licensed in an open manner? Both Programming Historian and Software Carpentry, for example, license their material under the [CC-BY license](https://creativecommons.org/licenses/by/2.0/). This allows people to share and adapt material for any purpose, even commercial ones, without asking permissions as long as they continue to share the content in a similar manner. Software Carpentry is explicit that one does not need to ask permission. But otherwise, please ask.
+
+The same questions of re-use come when thinking about recycling content of a lesson: images, data, figure, or code. Does the license cover that as well? If not, then ask permission. 
+
+As you collaboratively develop your own lessons, make sure to think about the collaborative contexts of the entire field.
 
 ## 4) Build lessons, not courses.
 
@@ -88,34 +92,13 @@ in the sciences and humanities...
 
 ## 5) Encourage and enable lots of little contributions.
 
--   Steady improvement and adaptation increases longevity of lesson.
--   Provide an on-ramp for new contributors.
--   Be explicit about the license, code of conduct, governance (esp. who can do what), and contribution procedure.
-    -   Lower the social barriers to contribution.
-    -   Copy existing ones rather than creating your own.
-    -   Pointers to models.
--   Use tools and formats that support pre-merge review.
-    -   Lower the technical barriers to contribution.
-    -   Google Docs with comments is OK.
-    -   GitHub with pull requests is better, but has a very large startup cost.
-    -   Wikis that allow review for pending changes are a good balance.
-    -   But in a pinch, work with contributors to find their comfort zone --- don't let a collaboration flounder on a technological choice!
-        -   for example, one author (Ian) uses the following platforms in his collaborations:
-            -   with computer scientists and Programming Historian, uses git and the issue tracker for conversation
-            -   with library collaborators, uses Google Docs to edit work collectively
-            -   with digital humanists who he wrote a pedagogical book with,
-                used Microsoft Word documents in Dropbox and a chat function to coordinate who was working on what
-    -   Support threaded discussion.
-        -   Because a single channel will have a low signal-to-noise ratio from most people's points of view.
-        -   Discuss use of GitHub issues as sub-channels.
--   Make it easy for people to submit errata and suggestions.
-    -   An even gentler on-ramp for new contributors.
-    -   The 90/9/1 rule (90% of people watch, 9% discuss, 1% do).
-    -   Requires someone to do triage (see earlier point about governance).
--   Have a procedure for when things go wrong.
-    -   Working in the open can be great, but can also suppress voices (unintentionally)
-    -   At Programming Historian,
-        we have an ombudsperson that a contributor can contact outside of public channels.
+It takes a village to ensure the steady improvement and adaptation that will give a lesson a long life. Ensuring this, however, is not straightforward.
+
+Making the process explicit is key. New contributors require a straightforward and transparent introduction to understand the process of tweaking and adapting lessons. Licensing, code of conduct, governance, and contribution procedure need to all be explicit rather than implicit to lower the social barriers to contribution.
+
+Tools can help, especially if they support pre-merge review. Yet some of these tools come with a considerable up-front learning curve. GitHub with pull requests may be ideal, but allowing people to edit a Google Doc, or to facilitate Wiki-based editing, can help get conversations started. In a pinch, work with contributors to find a comfort zone –-- don't let a collaboration flounder on technological choice. But make sure not to overwhelm either; threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
+
+Ultimately, community dynamics are more important than platform. We have seen the 90/9/1 rule (90% of people watch, 9% discuss, 1% do). This requires a gentle on-ramp for new contributors, that we make it easy for people to submit errata and suggestions, and that editors may need to do triage to ensure that voices are heard. Finally, with so many voices and contributions come caution. Working in the open can be great, but can also unintentionally suppress voices. At _Programming Historian_, a popular digital humanities technical site, an ombudsperson is available for private chats and facilitation. Many voices are great, as long as they can all be considered.
 
 ## 6) Teach people how to do things the right way (or at least *some* way).
 
@@ -139,15 +122,22 @@ in the sciences and humanities...
 
 ## 8) Collect and act on feedback at several scales.
 
--   Micro: notes on specific parts of existing lessons (e.g., typos or minor reorderings)
-    turn into tickets in a work-tracking system (e.g., GitHub issues).
--   Macro: use pre and post surveys to discover larger issues.
-    -   Do pre surveys immediately before so that information is still accurate when lesson delivered.
-    -   Do post surveys 30-60 days after (if possible) so that people have time to reflect,
-        and are more likely to give accurate feedback on what they learned rather than how entertained they were.
-    -   We are also very fond of sticky notes...
--   Purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
-    -   What people immersed in the lessons think needs fixing and what learners think needs fixing can be very different.
+The purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
+What people immersed in the lessons think needs fixing can often differ from what learners think needs fixing.
+
+Micro-scale feedback can be gathered by an instructor while teaching a particular lesson.
+Learners might provide feedback on things like typographical errors,
+clarity/ease of quiz questions and/or the order in which topics are presented,
+which the instructor can enter into a work-tracking system (e.g. GitHub issues) at the end of class.
+As well as encouraging direct verbal feedback,
+it's a good idea to provide learners with a means to provide feedback anonymously during class 
+(e.g. small pieces of paper like sticky notes).
+
+Pre- and post-class surveys can be used to discover larger macro-scale issues.
+If possible, it's a good idea to conduct the post-class survey 30-60 days after the fact.
+This allows people time to reflect,
+meaning they are more likely to give accurate feedback on what they learned
+rather than how entertained they were.
 
 ## 9) Tell people where else to look.
 
