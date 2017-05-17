@@ -69,9 +69,27 @@ in the sciences and humanities...
 
 ## 2) Remember that you are building a community, not a lesson.
 
--   Lessons don't maintain themselves.
--   This should be made clear to contributors, with sustainability in mind.
--   So focus (as with all online activities) has to be on creating a community.
+Lessons don't maintain themelves. 
+Unlike traditional academic work, 
+which may have shelf time measured 
+in years (if not longer), 
+technical lessons do not maintain themselves. 
+Versions change, dependencies break, 
+and what was cutting edge in 2017 may be dated 
+and less useful in 2018. 
+This needs to be clear to contributors, 
+so they understand that this lesson is just 
+the starting point. 
+Sustainability needs to be front of mind.
+
+The focus accordingly needs to be on creating a community. 
+Authors cannot be expected to maintain continual vigilence on a lesson,
+but this is necessary if one expectes continual use of a lesson! 
+By working online, creating opportunities for collaboration 
+and contribution, many eyes can keep the lesson usable. 
+As we note below, 
+this only works if you make space for 
+little contributions just as you do for larger ones.
 
 ## 3) Reduce, re-use, recycle.
 
