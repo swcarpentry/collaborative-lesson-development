@@ -194,8 +194,6 @@ an ombudsperson is available for private chats and facilitation.
 
 ## 7) Publish each lesson periodically, and give people credit when you do.
 
-### Writing
-
 Similar to publishing software,
 lessons should have releases of fixed content
 so that learners or instructors who may wish to use the material have a stable version to refer to
