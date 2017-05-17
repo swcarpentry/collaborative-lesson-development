@@ -194,12 +194,39 @@ an ombudsperson is available for private chats and facilitation.
 
 ## 7) Publish each lesson periodically, and give people credit when you do.
 
+### Writing
+
+Similar to publishing software, lessons should have releases of fixed content so that learners or instructors who may wish to use the material have a stable version to refer to for the duration of their use. These releases should be periodic so that improvements and adjustments are made available for new learners and instructors just starting their use. Periodic releases are also essential for enabling recognition of the contribution of authors and maintainers.
+
+The traditional academic system has limited ways of recognizing contributions. Until systems have been expanded to improve this, it is important to publish your lessons using a mechanism that provides recognition to the contributors. Currently an effective way to do this is to publish lessons with a DOI supplied by (list possibilities). Contributors can be listed as Authors and the maintainers of the lesson as Editors to provide differentiated recognition of their contributions.
+
+A lesson release is a good opportunity to bring the material into a stable shape by fixing outstanding issues and merging contribution. The complete name and possible identifier like ORCID should also be gathered for every contributor. Version control helps a lot in continuously maintaining a list of contributors but also in remembering which version is used for release (e.g., using branches or tags). A lesson release is here to stay and it is recommended to use a consistent naming scheme from the beginning. A convenient naming scheme is to use the full year and month of the release, like “2017.05” as it conveys a clear notion of date, even to people that are new to the project.
+
+Once the lesson is ready for release and has a name, it should be built, submitted to DOI supplier with its metadata such as lesson name, authors (e.g., contributors) and editors (e.g., maintainers). Due to the collaborative aspect of the lesson development, the number of authors and even lessons can grow very fast and it is worth spending some time on automating this release process. After the formal publishing, it is also a good idea to publish the built lesson for direct access by the community, making it clear which version is displayed and what is its corresponding DOI. 
+
+### Ideas etc
+
 -   Give people credit in a digestible way as a reward for contributing.
 -   List the lesson's maintainers as editors (since everyone understands that role).
 -   Tell people what the release schedule is.
 -   Give all contributors credit when you publish (having been clear up front who counts as a contributor).
 -   Be open to candid conversations around credit --- not all employment contexts are the same. 
-
+-   Managing a community with an evolving material, so we need to
+    -   … have versions that can be referenced (i.e., are both always accessible and named), so that
+    -   instructor: have a known and known-working version to teach (at least as a fallback)
+    -   instructor: choose deliberately to self-update
+    -   learner: can refer to the version they were taught
+    -   contributor: discuss changes between versions
+-   Important steps (we might be publishing a set of lessons)
+    -   have an up to date author list (ideally maintain it from and inside version control)
+    -   bug bbq, merging, etc of the pending issues
+    -   keep track of which version your release (write it in a file but also make a "tag" on your lessons)
+    -   decide on a good release name (e.g., 2017.05 that conveys a rather clear notion of date)
+    -   build your rendered lesson
+    -   get a DOI so it can be cited
+    -   publish it (including its version number and doi)
+    -   also publish your infra? (workshop template etc)
+ 
 ## 8) Collect and act on feedback at several scales.
 
 The purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
