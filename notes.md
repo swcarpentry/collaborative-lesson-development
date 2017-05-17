@@ -196,13 +196,48 @@ an ombudsperson is available for private chats and facilitation.
 
 ### Writing
 
-Similar to publishing software, lessons should have releases of fixed content so that learners or instructors who may wish to use the material have a stable version to refer to for the duration of their use. These releases should be periodic so that improvements and adjustments are made available for new learners and instructors just starting their use. Periodic releases are also essential for enabling recognition of the contribution of authors and maintainers.
+Similar to publishing software,
+lessons should have releases of fixed content
+so that learners or instructors who may wish to use the material have a stable version to refer to
+for the duration of their use.
+These releases should be periodic
+so that improvements and adjustments are made available
+for new learners and instructors just starting their use.
+Periodic releases are also essential
+for enabling recognition of the contribution of authors and maintainers.
 
-The traditional academic system has limited ways of recognizing contributions. Until systems have been expanded to improve this, it is important to publish your lessons using a mechanism that provides recognition to the contributors. Currently an effective way to do this is to publish lessons with a DOI supplied by (list possibilities). Contributors can be listed as Authors and the maintainers of the lesson as Editors to provide differentiated recognition of their contributions.
+The traditional academic system has limited ways of recognizing contributions.
+Until systems have been expanded to improve this,
+it is important to publish your lessons using a mechanism that provides recognition to the contributors.
+Currently an effective way to do this is
+to publish lessons with a DOI supplied by (FIXME list possibilities).
+Contributors can be listed as authors
+and the maintainers of the lesson as editors
+to provide differentiated recognition of their contributions.
 
-A lesson release is a good opportunity to bring the material into a stable shape by fixing outstanding issues and merging contribution. The complete name and possible identifier like ORCID should also be gathered for every contributor. Version control helps a lot in continuously maintaining a list of contributors but also in remembering which version is used for release (e.g., using branches or tags). A lesson release is here to stay and it is recommended to use a consistent naming scheme from the beginning. A convenient naming scheme is to use the full year and month of the release, like “2017.05” as it conveys a clear notion of date, even to people that are new to the project.
+A lesson release is a good opportunity to bring the material into a stable shape
+by fixing outstanding issues and merging contribution.
+The complete name and possible identifier like ORCID should also be gathered for every contributor.
+Version control helps a lot in continuously maintaining a list of contributors
+but also in remembering which version is used for release
+(e.g., using branches or tags).
+A lesson release is here to stay
+and it is recommended to use a consistent naming scheme from the beginning.
+A convenient naming scheme is to use the full year and month of the release,
+like "2017.05",
+as it conveys a clear notion of date,
+even to people that are new to the project.
 
-Once the lesson is ready for release and has a name, it should be built, submitted to DOI supplier with its metadata such as lesson name, authors (e.g., contributors) and editors (e.g., maintainers). Due to the collaborative aspect of the lesson development, the number of authors and even lessons can grow very fast and it is worth spending some time on automating this release process. After the formal publishing, it is also a good idea to publish the built lesson for direct access by the community, making it clear which version is displayed and what is its corresponding DOI. 
+Once the lesson is ready for release and has a name,
+it should be built
+and submitted to DOI supplier with its metadata,
+such as lesson name, authors (e.g., contributors) and editors (e.g., maintainers).
+Due to the collaborative aspect of the lesson development,
+the number of authors and even lessons can grow very fast
+and it is worth spending some time on automating this release process.
+After the formal publishing,
+it is also a good idea to publish the built lesson for direct access by the community,
+making it clear which version is displayed and what is its corresponding DOI. 
 
 ### Ideas etc
 
