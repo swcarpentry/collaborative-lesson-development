@@ -182,11 +182,44 @@ an ombudsperson is available for private chats and facilitation.
 
 ## 6) Teach people the best practices for lesson development.
 
-Decades of pedagogical research has yield discoveries about how people learn and the development of best teaching practices (references: Ambrose et al. 2010, others). Unfortunately, this knowledge and expertise is rarely transfered into common classroom practice, especially when courses are taught by people who have no to little formal education in pedagogy. This means that our instructors aren't learning how to teach well by simple observing their own instructors; instructors must be taught how to design lessons. 
+Decades of pedagogical research has yielded many insights into
+how best to build and deliver lessons (FIXME: Ambrose et al. 2010).
+Unfortunately,
+since most college and university faculty have little or no training in education,
+this knowledge and expertise is rarely transfered into classroom practice.
 
-A large part of Software Carpentry's success was the instructor training program which taught its instructors how to build lessons (Ahmadia et al. 2016). This instructor training program is a natural complement to Software Carpentry's core mission to teach scientists the basics of programming (so that they don't have to to teach themselves because they aren't learning it in academia). In additional to filling a gap in training, this instructor training program serves and an on-boarding process to get everyone on the same page as to who lessons are designed and delivered and why. On examples is that Software Carpentry uses the practice of reverse instructional design. This means that lessons are designed backwards (focusing first on with learning objectives and formative assessment) but taught forward (beginning with introductory examples and summative assessments). Since this pedagogical practice is critical to the philosophy of Software Carpentry, all Software Carpentry instructors must be taught to use this practice.    
+Experience shows that even a brief introduction to a handful of key practices
+can help collaborative lesson development in at least three ways.
+If people have a shared understanding of how lessons should be developed,
+it is easier for them to work together.
+Less obviously,
+if people have a shared model of how lessons are going to be *used*,
+they are more likely to try to build the same kind of material.
+Finally,
+teaching people how to teach is a great way to introduce them to each other and build community.
 
-When collaboratively lessons, all contributors must taught or shown how to develop and maintain lessons. In in person (virtual or live) on boarding session is the best way to develop a community and ensure that everyone has had access to the same information. Then, good documentation will provide written confirmation of the pedagogical practices used and the policies for who to contribute. Finally, open lines of communication will ensure that people find the answers they need. 
+An example of a particular lesson development practice is reverse instructional design
+(FIXME: cite Wiggins and McTighe).
+When this is used,
+lessons are built backwards from the final (summative) assessment,
+to the exercises and formative assessments used to gauge progress
+and give learners a chance to practice key skills,
+to the actual lesson content.
+This methodology is effective,
+but the real benefit comes when everyone understands what is supposed to happen
+in what order.
+
+Another example is Software Carpentry's instructor training program.
+First offered in 2012,
+this gradually turned into a two-day course delivered both in-person and online
+(FIXME: "Lessons Learned" paper).
+This crash course was a natural complement to Software Carpentry's regular workshops:
+while the latter were created so that researchers wouldn't have to teach themselves how to program,
+the former ensures that they don't have to teach themselves how to teach.
+Instructor training now serves and an onboarding process to get everyone on the same page
+regarding who lessons are for,
+how they are delivered,
+and how they are maintained.
 
 ## 7) Publish each lesson periodically, and give people credit when you do.
 
