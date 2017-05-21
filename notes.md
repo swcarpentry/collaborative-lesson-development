@@ -59,7 +59,7 @@ in the sciences and humanities...
         in an academic context (both users but also authors who have expectation of formal 
         academic credit).
 
-## 1) Be clear who your lesson is for.
+## 1) Clarify your audiences.
 
 -   Describe prerequisite knowledge, equipment or software required, etc.
 -   Learner profiles are often clearer than itemized lists.
@@ -67,7 +67,7 @@ in the sciences and humanities...
     –   at Programming Historian we use "beginner," "intermediate," and "advanced" lessons,
         which helps authors pitch properly.
 
-## 2) Remember that you are building a community, not a lesson.
+## 2) Build community around lessons
 
 Lessons don't maintain themelves. 
 Unlike traditional academic work, 
@@ -121,9 +121,10 @@ If not,
 then ask permission,
 just as you would for any other material.
 
-As you collaboratively develop your own lessons, make sure to think about the collaborative contexts of the entire field.
+As you collaboratively develop your own lessons,
+make sure to think about the collaborative contexts of the entire field.
 
-## 4) Build lessons, not courses.
+## 4) Build modular lessons that can be re-purposed
 
 Every instructor's needs are different,
 so build small chunks that can be re-purposed in many ways. 
@@ -144,14 +145,17 @@ it can be much easier for people to find them and integrate them.
 Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
 so this rule further emphasizes the importance of rule 1.
 
-## 5) Encourage and enable lots of little contributions.
+## 5) Encourage and empower contributors.
 
-It takes a village to ensure the steady improvement and adaptation that will give a lesson a long life. Ensuring this, however, is not straightforward.
+It takes a village to ensure
+the steady improvement and adaptation that will give a lesson a long life.
+Ensuring this, however, is not straightforward.
 
 Making the process explicit is key.
 New contributors require a straightforward and transparent introduction
 to understand the process of tweaking and adapting lessons.
-Licensing, code of conduct, governance, and contribution procedure all need to be explicit rather than implicit
+Licensing, code of conduct, governance, and contribution procedure
+all need to be explicit rather than implicit
 to lower the social barriers to contribution.
 
 Tools can help,
@@ -180,7 +184,7 @@ At Programming Historian,
 for example,
 an ombudsperson is available for private chats and facilitation.
 
-## 6) Teach people the best practices for lesson development.
+## 6) Teach best practices for lesson development
 
 Decades of pedagogical research has yielded many insights into
 how best to build and deliver lessons (FIXME: Ambrose et al. 2010).
@@ -221,7 +225,7 @@ regarding who lessons are for,
 how they are delivered,
 and how they are maintained.
 
-## 7) Publish each lesson periodically, and give people credit when you do.
+## 7) Publish periodically and recognition contributions
 
 Similar to publishing software,
 lessons should have releases of fixed content
@@ -289,7 +293,7 @@ making it clear which version is displayed and what is its corresponding DOI.
     -   publish it (including its version number and doi)
     -   also publish your infra? (workshop template etc)
  
-## 8) Collect and act on feedback at several scales.
+## 8) Evaluate lessons at several scales.
 
 The purpose of feedback is to guide lesson development so that authors aren't designing and arguing in a vacuum.
 What people immersed in the lessons think needs fixing can often differ from what learners think needs fixing.
@@ -317,12 +321,12 @@ It can sometimes be difficult for lesson developers to understand the frame of a
 so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
 that can be expanded on or acknowledged.
 
-## 9) Tell people where else to look.
+## 9) Point to alternate resources.
 
 -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
 -   Make it part of a much broader conversation.
 
-## 10) Remember: you can't help (or please) everyone.
+## 10) Embrace all outcomes.
 
 -   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
     -   If there are several complementary ways to explain something,
