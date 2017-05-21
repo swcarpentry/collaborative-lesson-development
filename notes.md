@@ -180,17 +180,17 @@ At Programming Historian,
 for example,
 an ombudsperson is available for private chats and facilitation.
 
-## 6) Teach people how to do things the right way (or at least *some* way).
+## 6) Teach people the best practices for lesson development.
 
--   Large part of Software Carpentry's success was instructor training, which taught:
-    -   how to build lessons (so that everyone's using more or less the same process)
-    -   how to deliver lessons (so that everyone knows what they're trying to build *for*)
--   A natural complement to Software Carpentry's core mission
-    -   Scientists shouldn't have to teach themselves the basics of programming
-    -   So why should they have to teach themselves how to teach?
--   Example: design the lesson backward, but describe it forward.
-    -   Quick review of reverse instructional design.
-    -   But describe forward (since that's comprehension order).
+Decades of pedagogical research has yield discoveries about how people learn and the development of best teaching practices (references: Ambrose et al. 2010, others). Unfortunately, this knowledge and expertise is rarely transfered into common classroom practice, especially when courses are taught by people who have no to little formal education in pedagogy. This means that our instructors aren't learning how to teach well by simple observing their own instructors; instructors must be taught how teach and design lessons. 
+
+There is a misconception in academia that if you are have expertise in a subject then you are qualified to teach the subject. However, an effective teacher should also have a strong foundation of pedagogical knowledge about how to teach and how learning works.  Importantly, different subjects require different teaching methods. The term 'Pedagogical content knowledge' refers to the intersection of domain-specific knowledge and pedagogical knowledge. 
+
+A particular advantage of collaborative-lesson-development is the generation of a wealth of pedagogical content knowledge. When different authors with different content knowledge come together to teach lessons that are built on a foundation of pedagogical knowledge, the collaborative group can gain a deep understanding of what does and does not work well in the classroom. The pedagogical content knowledge about how to best teach a particular subject is invaluable.  To build the pedagogical knowledge foundation, lesson development must be taught how to develop lessons so that everyone uses the same or similar process. 
+
+A large part of Software Carpentry's success was the instructor training program which taught its instructors how to build lessons and also how to how to deliver lessons (Ahmadia et al. 2016). This instructor training program is a natural complement to Software Carpentry's core mission to teach scientists the basics of programming (so that they don't have to to teach themselves because they aren't learning it in academia). In additional to filling a gap in training, this instructor training program serves and an on-boarding process to get everyone on the same page as to who lessons are designed and delivered and why. On examples is that Software Carpentry uses the practice of reverse instructional design. This means that lessons are designed backwards (focusing first on with learning objectives and formative assessment) but taught forward (beginning with introductory examples and summative assessments). Since this pedagogical practice is critical to the philosophy of Software Carpentry, all Software Carpentry instructors must be taught to use this practice.    
+
+When collaboratively lessons, all contributors must taught or shown how to develop and maintain lessons. In in person (virtual or live) on boarding session is the best way to develop a community and ensure that everyone has had access to the same information. Then, good documentation will provide written confirmation of the pedagogical practices used and the policies for who to contribute. Finally, open lines of communication will ensure that people find the answers they need. 
 
 ## 7) Publish each lesson periodically, and give people credit when you do.
 
