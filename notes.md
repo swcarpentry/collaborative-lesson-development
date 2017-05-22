@@ -205,8 +205,17 @@ teaching people how to teach is a great way to introduce them to each other and 
 An example of a particular lesson development practice is reverse instructional design
 (FIXME: cite Wiggins and McTighe).
 When this is used,
-lessons are built by identifying the learning objectives, deciding what is evidence of learning, designing exercises and formative assessments to gauge progress and to give learners a chance to practice key skills, and by organizing the practices into a cirricluia.
-This methodology is effective,
+lessons are built by:
+
+- identifying the learning objectives,
+- creating *summative assessments* to determine whether those objectives have been met,
+- designing *formative assessments* to gauge learners' progress
+  and give them a chance to practice key skills,
+- putting those formative assessments in order,
+  and
+- writing lessons to connect each to the next.
+
+This methodology is effective in its own right,
 but the real benefit comes when everyone understands what is supposed to happen
 in what order.
 
