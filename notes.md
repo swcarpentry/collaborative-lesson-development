@@ -332,21 +332,44 @@ that can be expanded on or acknowledged.
 -   The lesson is a beginning, not an end, so point them at similar material and where to go next.
 -   Make it part of a much broader conversation.
 
-## 10) Embrace all outcomes.
+## 10) You can't please everyone.
 
--   Discuss minor disagreements, split off and begin evolving the lesson in different ways if they cannot be resolved.
-    -   If there are several complementary ways to explain something,
-        or several points of views that can cohabit respectfully,
-        present them side by side
-        (just as with any other kind of lesson, essay, etc.).
-        -   Cf. choral explanations.
-    -   If there are major disagreements that can't cohabit respectfully,
-        fork the lesson,
-        i.e., have the groups go their separate ways.
--   Same applies to governance:
-    if enough people disagree strongly about how the lesson should be managed, fork.
-    -   Which is a strong argument in favor of open licensing.
-    -   But remember at the end of the day we all share the same vision of collaborative lesson development.
+No single lesson can be right for every learner.
+Two people with no prior knowledge of a specific subject
+may still be able to move at very different speeds
+because of different levels of general background knowledge.
+Similarly,
+lessons on ecology for learners in Utah and Florida
+will probably be more relatable if they use different examples.
+Equally,
+no lesson development community can serve all purposes.
+Some groups may prioritize rapid evolution,
+while others may prefer a "measure twice, cut once" approach.
+
+If there are several complementary ways to explain something,
+or several points of views that can cohabit respectfully,
+it may be possible to present them side by side.
+There are actualy good pedagogical reasons to do this even if contributors *don't* disagree:
+weighing alternatives fosters higher-order thinking,
+and as Caulfield has written,
+the most popular online question and answer sites
+are successful in part because they present a chorus of explanations
+geared at different levels and needs
+rather than a single one (FIXME: cite choral explanations).
+
+But sometimes choices must be made.
+The open source software community has wrestled with these issues for three decades,
+and has evolved some best practices to handle them (FIXME: cite Fogel's "Producing Open Source Software").
+As discussed in Rule 5,
+the first step is to have a clear governance structure and a clear, permissive license.
+Minor disagreements should be discussed openly and respectfully.
+If they cannot be resolved---i.e., if they turn out not to be so minor after all---then
+contributors should split off and evolve the lesson in the way they see best.
+(This is one of the reasons to have a permissive license.)
+
+Forking rarely happens in practice.
+When it does,
+it is important to remember that we all share the same vision of better lessons, built together.
 
 ## Mechanics
 
