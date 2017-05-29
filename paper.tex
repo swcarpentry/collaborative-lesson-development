@@ -94,4 +94,450 @@
 \fancyfootoffset[L]{2.25in}
 \lfoot{\sf PLOS}
 
-\input{body}
+%% Include all macros below
+\newcommand{\fixme}[2]{\textsc{\textbf{{#1}: {#2}}}}
+\newcommand{\recommend}[1]{\textit{#1}}
+\newcommand{\withurl}[2]{{#1}\footnote{\texttt{#2}}}
+\newcommand{\rulemajor}[1]{\section{#1}}
+\begin{document}
+\vspace*{0.2in}
+
+\begin{flushleft}
+{\Large
+\textbf\newline{Ten Simple Rules for Collaborative Lesson Development}
+}
+\newline
+\\
+{Gabriel~A.~Devenyi}\textsuperscript{1},
+{R\'{e}mi~Emonet}\textsuperscript{2},
+{Rayna~M.~Harris}\textsuperscript{3},
+{Kate~Hertweck}\textsuperscript{4},
+{Damien~Irving}\textsuperscript{5},
+{Ian~Milligan}\textsuperscript{6},
+{Greg~Wilson}\textsuperscript{7, *}
+\\
+\textbf{1} Douglas Mental Health University Institute / FIXME \\
+\textbf{2} FIXME: affiliation and email \\
+\textbf{3} University of Texas at Austin / rayna.harris@utexas.edu \\
+\textbf{4} University of Texas at Tyler / khertweck@uttyler.edu \\
+\textbf{5} CSIRO / FIXME \\
+\textbf{6} University of Waterloo / FIXME email \\
+\textbf{7} Rangle.io / gvwilson@third-bit.com
+\\
+* Corresponding author.
+\end{flushleft}
+
+\section*{Abstract}
+
+FIXME: abstract
+
+\section*{Author Summary}
+
+FIXME: author summary
+
+\section*{Introduction}
+
+Thousands of university lecturers teach subjects ranging from first year biology,
+to graduate-level courses in Indian film.
+Some might use a common textbook written by a single author or two,
+but other than that they usually develop and improve their course materials in isolation.
+It is staggering to think how many wheels are being re-invented,
+how the progress of teaching in these fields has been held back by
+the lack of community collaboration and sharing,
+and how much valuable time has been wasted.
+
+This problem extends beyond university teaching,
+but it is curious that it is endemic in tertiary education,
+given that research depends so critically on collaboration and sharing,
+and that most researchers complain about how much time teaching takes away from research.
+
+The software community's model of collaborative code development is an alternative.
+The authors first encountered it in the context of
+lessons on basic lab skills for research computing
+in the sciences and humanities...
+
+FIXME: fill in introduction
+
+\rulemajor{Clarify your audience.}
+
+The first requirement for building lessons together is
+to know who they are being built for.
+``Archaeology students'' is far too vague:
+are you and your collaborators thinking of
+first-year students who need an introduction to the field,
+graduate students who intend to specialize in the sub-discipline which is the lesson's focus,
+or someone in betwee?
+Prerequisite knowledge,
+equipment or software required,
+how much time learners will actually have:
+if different contributors believe different things about these,
+they will find it difficult or impossible to work together.
+
+Thinking systematically about difficulty levels can help manage expectations.
+For example,
+the Programming Historian project labels lessons ``beginner''",
+``intermediate'',
+and ``advanced''
+to help authors write at appropriate levels.
+However,
+this only works if there is prior agreement on what those terms mean.
+
+Rather than itemizing prior knowledge and learning objectives,
+it can be helpful to write \emph{learner profiles}.
+This technique is borrowed from user interface design
+to help authors think about their audience's needs
+and give them a shorthand for talking about specific cases.
+
+Learner profiles have five parts:
+the learner's general background,
+what they already know,
+what *they* think they want to do,
+how the material will help them,
+and any special needs they might have.
+A learner profile for a weekend programming workshop for new college students might be:
+
+\begin{enumerate}
+
+\item
+  Jorge has just moved from Costa Rica to Canada
+  to study agricultural engineering.
+
+\item
+  Other than using Excel, Word, and the Internet,
+  Jorge's most significant previous experience with computers is
+  helping his sister build a WordPress site for the family business.
+
+\item
+  Jorge needs to measure properties of soil from nearby farms
+  using a handheld device that sends text files to his computer.
+  Right now, Jorge has to open each file in Excel,
+  crop the first and last points,
+  and calculate an average.
+
+\item
+  This workshop will show Jorge how to write a little Python program
+  to read the data,
+  select the right values from each file,
+  and calculate the required statistics.
+
+\item
+  Jorge can read English proficiently,
+  but still struggles sometimes to keep up with spoken conversation
+  (especially if it involves a lot of new jargon).
+
+\end{enumerate}
+
+\rulemajor{Build community around lessons.}
+
+Lessons don't maintain themelves. 
+Unlike traditional academic work, 
+which may have shelf time measured 
+in years (if not longer), 
+technical lessons do not maintain themselves. 
+Versions change, dependencies break, 
+and what was cutting edge in 2017 may be dated 
+and less useful in 2018. 
+This needs to be clear to contributors, 
+so they understand that this lesson is just 
+the starting point. 
+Sustainability needs to be front of mind.
+
+The focus accordingly needs to be on creating a community. 
+Authors cannot be expected to maintain continual vigilence on a lesson,
+but this is necessary if one expectes continual use of a lesson! 
+By working online, creating opportunities for collaboration 
+and contribution, many eyes can keep the lesson usable. 
+As we note below, 
+this only works if you make space for 
+little contributions just as you do for larger ones.
+
+\rulemajor{Reduce, re-use, recycle.}
+
+Don't create a new lesson if there is an existing one that you can use or contribute to.
+Just as a scholar would not write a paper without a literature review,
+the same holds for lessons.
+Before writing that introduction to the Bash command line,
+for example,
+do a search:
+has anybody else written it?
+Is it complementary to your goals?
+Could it be tweaked or modified to meet your own goals?
+Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
+
+FIXME: This is a good place to talk about discoverability as well as licensing
+
+Before re-using content,
+make sure to check that the lesson is licensed in an open manner.
+Both Programming Historian and Software Carpentry license their material under
+the Creative Commons - Attribution license
+(see https://creativecommons.org/licenses/by/2.0/).
+This allows people to share and adapt material for any purpose,
+even commercial ones,
+without asking permissions as long as they continue to share the content in a similar manner.
+
+The same questions of re-use come when thinking about recycling content of a lesson,
+such as images, data, figure, or code.
+Does the license cover that as well?
+If not,
+then ask permission,
+just as you would for any other material.
+
+As you collaboratively develop your own lessons,
+make sure to think about the collaborative contexts of the entire field.
+
+\rulemajor{Build modular lessons that can be re-purposed.}
+
+Every instructor's needs are different,
+so build small chunks that can be re-purposed in many ways. 
+A university lecturer in meteorology, for instance,
+might construct a course by bringing together lessons on differential equations,
+fluid mechanics and absorption spectroscopy. 
+This task is greatly simplified if existing courses on mathematics, 
+physics and chemistry consist of numerous small, discrete lessons,
+as opposed to a few large, monolithic lessons.
+
+Note that doing this shifts the instructor's burden from writing to finding and synthesizing.
+Both of which are easier if lessons have been designed by people with a shared world-view (rule 6),
+and if lessons clearly signal what they cover (Rule~1).
+In particular,
+if lessons reference specific points in the model curriculum guidelines promulgated by many professional societies,
+it can be much easier for people to find them and integrate them.
+
+Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
+so this rule further emphasizes the importance of rule 1.
+
+\rulemajor{Encourage and empower contributors.}
+
+It takes a village to ensure
+the steady improvement and adaptation that will give a lesson a long life.
+Ensuring this, however, is not straightforward.
+
+Making the process explicit is key.
+New contributors require a straightforward and transparent introduction
+to understand the process of tweaking and adapting lessons.
+Licensing, code of conduct, governance, and contribution procedure
+all need to be explicit rather than implicit
+to lower the social barriers to contribution.
+
+Tools can help,
+especially if they support pre-merge review.
+Yet some of these tools come with a considerable up-front learning curve.
+GitHub with pull requests may be ideal,
+but allowing people to edit a Google Doc,
+or to facilitate Wiki-based editing,
+can help get conversations started.
+In a pinch,
+work with contributors to find a comfort zone:
+don't let a collaboration flounder on technological choice.
+But make sure not to overwhelm either:
+threaded discussion (or GitHub issues) will help increase the signal-to-noise ratio.
+
+Ultimately,
+community dynamics are more important than platform.
+We have seen the 90/9/1 rule:
+90\% of people watch, 9\% discuss, 1\% do.
+This requires a gentle on-ramp for new contributors,
+that we make it easy for people to submit errata and suggestions,
+and that editors may need to do triage to ensure that voices are heard.
+Finally, with so many voices and contributions come caution.
+Working in the open can be great,
+but can also unintentionally suppress voices.
+At Programming Historian,
+for example,
+an ombudsperson is available for private chats and facilitation.
+
+\rulemajor{Teach best practices for lesson development.}
+
+Decades of pedagogical research has yielded many insights into
+how best to build and deliver lessons \cite{hlw}.
+Unfortunately,
+since most college and university faculty have little or no training in education,
+this knowledge and expertise is rarely transfered into classroom practice.
+
+Experience shows that even a brief introduction to a handful of key practices
+can help collaborative lesson development in at least three ways.
+If people have a shared understanding of how lessons should be developed,
+it is easier for them to work together.
+Less obviously,
+if people have a shared model of how lessons are going to be *used*,
+they are more likely to try to build the same kind of material.
+Finally,
+teaching people how to teach is a great way to introduce them to each other and build community.
+
+An example of a particular lesson development practice is reverse instructional design
+\cite{wiggins-mctighe}.
+When this is used,
+lessons are built by:
+
+\begin{itemize}
+
+\item
+  identifying the learning objectives,
+
+\item
+  creating \emph{summative assessments} to determine whether those objectives have been met,
+
+\item
+  designing \emph{formative assessments} to gauge learners' progress
+  and give them a chance to practice key skills,
+
+\item
+  putting those formative assessments in order,
+  and
+
+\item
+  writing lessons to connect each to the next.
+
+\end{itemize}
+
+This methodology is effective in its own right,
+but the real benefit comes when everyone understands what is supposed to happen
+in what order.
+
+Another example is Software Carpentry's instructor training program.
+First offered in 2012,
+this gradually turned into a two-day course delivered both in-person and online
+\cite{lessons-learned}.
+This crash course was a natural complement to Software Carpentry's regular workshops:
+while the latter were created so that researchers wouldn't have to teach themselves how to program,
+the former ensures that they don't have to teach themselves how to teach.
+Instructor training now serves and an onboarding process to get everyone on the same page
+regarding who lessons are for,
+how they are delivered,
+and how they are maintained.
+
+\rulemajor{Publish periodically and recognize contributions.}
+
+Similar to publishing software,
+lessons should have releases of fixed content
+so that learners or instructors who may wish to use the material have a stable version to refer to
+for the duration of their use.
+These releases should be periodic
+so that improvements and adjustments are made available
+for new learners and instructors just starting their use.
+Periodic releases are also essential
+for enabling recognition of the contribution of authors and maintainers.
+
+The traditional academic system has limited ways of recognizing contributions.
+Until systems have been expanded to improve this,
+it is important to publish your lessons using a mechanism that provides recognition to the contributors.
+Currently an effective way to do this is
+to publish lessons with a DOI supplied by (FIXME list possibilities).
+Contributors can be listed as authors
+and the maintainers of the lesson as editors
+to provide differentiated recognition of their contributions.
+
+A lesson release is a good opportunity to bring the material into a stable shape
+by fixing outstanding issues and merging contribution.
+The complete name and possible identifier like ORCID should also be gathered for every contributor.
+Version control helps a lot in continuously maintaining a list of contributors
+but also in remembering which version is used for release
+(e.g., using branches or tags).
+A lesson release is here to stay
+and it is recommended to use a consistent naming scheme from the beginning.
+A convenient naming scheme is to use the full year and month of the release,
+like ``2017.05'',
+as it conveys a clear notion of date,
+even to people that are new to the project.
+
+Once the lesson is ready for release and has a name,
+it should be built
+and submitted to DOI supplier with its metadata,
+such as lesson name, authors (e.g., contributors) and editors (e.g., maintainers).
+Due to the collaborative aspect of the lesson development,
+the number of authors and even lessons can grow very fast
+and it is worth spending some time on automating this release process.
+After the formal publishing,
+it is also a good idea to publish the built lesson for direct access by the community,
+making it clear which version is displayed and what is its corresponding DOI. 
+ 
+\rulemajor{Evaluate lessons at several scales.}
+
+The purpose of feedback is to guide lesson development
+so that authors aren't designing and arguing in a vacuum.
+What people immersed in the lessons think needs fixing
+can often differ from what learners think.
+
+Micro-scale feedback can be gathered by an instructor while teaching a particular lesson.
+Learners might provide feedback on things like typographical errors,
+clarity/ease of quiz questions and/or the order in which topics are presented,
+which the instructor can enter into a work-tracking system (e.g., GitHub issues) at the end of class.
+As well as encouraging direct verbal feedback,
+it's a good idea to provide learners with a means to provide feedback anonymously during class 
+(e.g., on small pieces of paper like sticky notes).
+
+Pre- and post-class surveys can be used to discover larger macro-scale issues.
+These issues often relate to the fact that it can be difficult for lesson developers
+to fully understand the frame of reference of their audience.
+For instance, a lesson might inadvertently assume prior knowledge that many learners don't have,
+which is information that can be collected easily in a survey.
+If possible, it's a good idea to conduct the post-class survey 30-60 days after the fact.
+This allows people time to reflect,
+meaning they are more likely to give accurate feedback on what they learned
+rather than how entertained they were.
+
+Pre- and post-class surveys also are essential in focusing in on the audience for a given lesson.
+It can sometimes be difficult for lesson developers to understand the frame of a given learner
+so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
+that can be expanded on or acknowledged.
+
+\rulemajor{Point to alternate resources.}
+
+\begin{itemize}
+
+\item
+  FIXME: The lesson is a beginning, not an end, so point them at similar material and where to go next.
+
+\item
+  FIXME: Make it part of a much broader conversation.
+
+\end{itemize}
+
+\rulemajor{You can't please everyone.}
+
+No single lesson can be right for every learner.
+Two people with no prior knowledge of a specific subject
+may still be able to move at very different speeds
+because of different levels of general background knowledge.
+Similarly,
+lessons on ecology for learners in Utah and Florida
+will probably be more relatable if they use different examples.
+Equally,
+no lesson development community can serve all purposes.
+Some groups may prioritize rapid evolution,
+while others may prefer a ``measure twice, cut once'' approach.
+
+If there are several complementary ways to explain something,
+or several points of views that can cohabit respectfully,
+it may be possible to present them side by side.
+There are actualy good pedagogical reasons to do this even if contributors *don't* disagree:
+weighing alternatives fosters higher-order thinking,
+and as Caulfield has written,
+the most popular online question and answer sites
+are successful in part because they present a chorus of explanations
+geared at different levels and needs
+rather than a single one (FIXME: cite choral explanations).
+
+But sometimes choices must be made.
+The open source software community has wrestled with these issues for three decades,
+and has evolved some best practices to handle them
+\cite{producing-oss}.
+As discussed in Rule~5,
+the first step is to have a clear governance structure and a clear, permissive license.
+Minor disagreements should be discussed openly and respectfully.
+If they cannot be resolved---i.e., if they turn out not to be so minor after all---then
+contributors should split off and evolve the lesson in the way they see best.
+(This is one of the reasons to have a permissive license.)
+
+Forking rarely happens in practice.
+When it does,
+it is important to remember that we all share the same vision of better lessons, built together.
+
+\section*{Conclusion}
+
+FIXME
+
+\bibliography{paper}
+
+\end{document}
+
