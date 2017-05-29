@@ -61,11 +61,63 @@ in the sciences and humanities...
 
 ## 1) Clarify your audiences.
 
--   Describe prerequisite knowledge, equipment or software required, etc.
--   Learner profiles are often clearer than itemized lists.
-    -   Thinking systematically about 'difficulty' levels can help manage expectations
-    –   at Programming Historian we use "beginner," "intermediate," and "advanced" lessons,
-        which helps authors pitch properly.
+The first requirement for building lessons together is
+to know who they are being built for.
+"Archaeology students" is far too vague:
+are you and your collaborators thinking of
+first-year students who need an introduction to the field,
+graduate students who intend to specialize in the sub-discipline which is the lesson's focus,
+or someone in betwee?
+Prerequisite knowledge,
+equipment or software required,
+how much time learners will actually have:
+if different contributors believe different things about these,
+they will find it difficult or impossible to work together.
+
+Thinking systematically about difficulty levels can help manage expectations.
+For example,
+the Programming Historian project labels lessons "beginner",
+"intermediate",
+and "advanced"
+to help authors write at appropriate levels.
+However,
+this only works if there is prior agreement on what those terms mean.
+
+Rather than itemizing prior knowledge and learning objectives,
+it can be helpful to write _learner profiles_.
+This technique is borrowed from user interface design
+to help authors think about their audience's needs
+and give them a shorthand for talking about specific cases.
+
+Learner profiles have five parts:
+the learner's general background,
+what they already know,
+what *they* think they want to do,
+how the material will help them,
+and any special needs they might have.
+A learner profile for a weekend programming workshop for new college students might be:
+
+1.  Jorge has just moved from Costa Rica to Canada
+    to study agricultural engineering.
+
+1.  Other than using Excel, Word, and the Internet,
+    Jorge's most significant previous experience with computers is
+    helping his sister build a WordPress site for the family business.
+
+1.  Jorge needs to measure properties of soil from nearby farms
+    using a handheld device that sends text files to his computer.
+    Right now, Jorge has to open each file in Excel,
+    crop the first and last points,
+    and calculate an average.
+
+1.  This workshop will show Jorge how to write a little Python program
+    to read the data,
+    select the right values from each file,
+    and calculate the required statistics.
+
+1.  Jorge can read English proficiently,
+    but still struggles sometimes to keep up with spoken conversation
+    (especially if it involves a lot of new jargon).
 
 ## 2) Build community around lessons
 
