@@ -1,5 +1,6 @@
 *~
 *.aux
+*.bak
 *.bbl
 *.bib
 *.blg
