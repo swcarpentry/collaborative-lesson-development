@@ -152,54 +152,52 @@ and that most researchers complain about how much time teaching takes away from 
 The software community's model of collaborative code development is an alternative.
 The authors first encountered it in the context of
 lessons on basic lab skills for research computing
-in the sciences and humanities. They primarily draw on 
-their experiences with pedagogical organizations such as 
-Software Carpentry and Programming Historian. 
-Software Carpentry was founded in 1998 with the goal of 
-``making scientists more productive, and their work more
-reliable, by teaching them basic computing skills.'' 
-They do so through short one or two day intensive workshops that
-cover the basics of scientific computing. Programming Historian 
-was founded in 2008, and has evolved to become a collaboratively edited
-site providing lessons to humanists. 
+in the sciences and humanities. They primarily draw on
+their experiences with pedagogical organizations such as
+Software Carpentry and Programming Historian.
+Software Carpentry was founded in 1998
+to make scientists more productive,
+and their work more reliable,
+by teaching them basic computing skills.
+It has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
+Programming Historian was founded in 2008,
+and has evolved into a collaboratively-edited site providing lessons to humanists.
 
-In this article, we strive for an open-source software model, 
-by which we mean lesson materials that are:
+These organizations have been successful in adapting open source development methods
+to the problem of lesson development and maintenance.
+Their guiding principles are that lessons should be:
 
 \begin{enumerate}
 
 \item
-  Open and easily accessible
+  open and easily accessible, and
 
 \item
-  Continually maintained, refined, and 
-  improved by a community of contributors
+  continually maintained, refined, and improved
+  by a community of contributors.
 
 \end{enumerate}
 
-To our knowledge, Software Carpentry (and its related
-organizations such as Data Carpentry) are the only real-world
-example of an organization satisfying these criteria. Programming
-Historian, and other open educational resources, satisfy the
-first criteria but not necessarily the latter. While they 
-might experience a kind of iterative development where the 
-lessons are periodically updated by a small author group
-(e.g. this happens when a new edition of an academic 
-textbook is released), but this is not the same as regular, 
-small releases from a large community of contributors. 
+Many open education projects satisfy the first criterion,
+but very few satisfy the second.
+While their lessons might periodically be updated by a small author group,
+as happens when a new edition of a book is edited and published,
+this is not the same as regular, small releases
+from a large community of contributors.
 
-Meeting both criteria is critical for two reasons. We need
-lessons that are up-to-date with the latest information,
-which is crucial given the speed of software development. A lag
-between editions means broken dependencies and bugs. Second, lessons
-need to continue to live after a key author moves on from 
-being able to maintain the lesson. 
+Meeting both criteria is critical for two reasons.
+We need lessons that are up-to-date with the latest information,
+which is crucial given the speed of software development.
+A lag between editions means broken dependencies and bugs.
+Second,
+lessons need to continue to live after a key author moves on
+from being able to maintain them.
 
 This all means that the lessons have the potential to be far more useful.
 The collective knowledge and experience of the community
-is far greater than a single author. The ten simple rules 
+is far greater than a single author. The ten simple rules
 that follow aim to help others benefit from the
-lessons we have learned as maintainers, editors, and reviewers of 
+lessons we have learned as maintainers, editors, and reviewers of
 these resources.
 
 \fixme{63}{Complete the introduction}
@@ -275,26 +273,26 @@ A learner profile for a weekend programming workshop for new college students mi
 
 \rulemajor{Build community around lessons.}
 
-Lessons don't maintain themselves. 
-Unlike traditional academic work, 
-which may have shelf time measured 
-in years (if not longer), 
-technical lessons do not maintain themselves. 
-Versions change, dependencies break, 
-and what was cutting edge in 2017 may be dated 
-and less useful in 2018. 
-This needs to be clear to contributors, 
-so they understand that this lesson is just 
-the starting point. 
+Lessons don't maintain themselves.
+Unlike traditional academic work,
+which may have shelf time measured
+in years (if not longer),
+technical lessons do not maintain themselves.
+Versions change, dependencies break,
+and what was cutting edge in 2017 may be dated
+and less useful in 2018.
+This needs to be clear to contributors,
+so they understand that this lesson is just
+the starting point.
 Sustainability needs to be front of mind.
 
-The focus accordingly needs to be on creating a community. 
+The focus accordingly needs to be on creating a community.
 Authors cannot be expected to maintain continual vigilance on a lesson,
-but this is necessary if one expects continual use of a lesson! 
-By working online, creating opportunities for collaboration 
-and contribution, many eyes can keep the lesson usable. 
-As we note below, 
-this only works if you make space for 
+but this is necessary if one expects continual use of a lesson!
+By working online, creating opportunities for collaboration
+and contribution, many eyes can keep the lesson usable.
+As we note below,
+this only works if you make space for
 little contributions just as you do for larger ones.
 
 \rulemajor{Reduce, re-use, recycle.}
@@ -308,7 +306,7 @@ do a search:
 has anybody else written it?
 Is it complementary to your goals?
 Could it be tweaked or modified to meet your own goals?
-Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated? 
+Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated?
 
 \fixme{64}{Discuss discoverability as well as licensing}
 
@@ -334,11 +332,11 @@ make sure to think about the collaborative contexts of the entire field.
 \rulemajor{Build modular lessons that can be re-purposed.}
 
 Every instructor's needs are different,
-so build small chunks that can be re-purposed in many ways. 
+so build small chunks that can be re-purposed in many ways.
 A university lecturer in meteorology, for instance,
 might construct a course by bringing together lessons on differential equations,
-fluid mechanics and absorption spectroscopy. 
-This task is greatly simplified if existing courses on mathematics, 
+fluid mechanics and absorption spectroscopy.
+This task is greatly simplified if existing courses on mathematics,
 physics and chemistry consist of numerous small, discrete lessons,
 as opposed to a few large, monolithic lessons.
 
@@ -496,8 +494,8 @@ the number of authors and even lessons can grow very fast
 and it is worth spending some time on automating this release process.
 After the formal publishing,
 it is also a good idea to publish the built lesson for direct access by the community,
-making it clear which version is displayed and what is its corresponding DOI. 
- 
+making it clear which version is displayed and what is its corresponding DOI.
+
 \rulemajor{Evaluate lessons at several scales.}
 
 The purpose of feedback is to guide lesson development
@@ -510,7 +508,7 @@ Learners might provide feedback on things like typographical errors,
 clarity/ease of quiz questions and/or the order in which topics are presented,
 which the instructor can enter into a work-tracking system (e.g., GitHub issues) at the end of class.
 As well as encouraging direct verbal feedback,
-it's a good idea to provide learners with a means to provide feedback anonymously during class 
+it's a good idea to provide learners with a means to provide feedback anonymously during class
 (e.g., on small pieces of paper like sticky notes).
 
 Pre- and post-class surveys can be used to discover larger macro-scale issues.
