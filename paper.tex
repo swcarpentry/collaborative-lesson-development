@@ -95,7 +95,6 @@
 \lfoot{\sf PLOS}
 
 %% Include all macros below
-\newcommand{\fixme}[2]{\textsc{\textbf{FIXME {#1}: {#2}}}}
 \newcommand{\rulemajor}[1]{\section{#1}}
 \begin{document}
 \vspace*{0.2in}
@@ -134,7 +133,7 @@ The collaborative code development methods pioneered by the open source communit
 offer a way forward,
 allowing us to create lessons which are open,
 accessible,
-and conntinually updated and improved by a community of contributors.
+and continually updated and improved by a community of contributors.
 This paper provides ten simple rules that can help others create sustainable lessons.
 
 \end{abstract}
@@ -170,16 +169,13 @@ lessons on basic lab skills for research computing
 in the sciences and humanities. They primarily draw on
 their experiences with pedagogical organizations such as
 Software Carpentry and Programming Historian.
-Software Carpentry was founded in 1998
-to make scientists more productive,
-and their work more reliable,
-by teaching them basic computing skills.
-It has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
+Software Carpentry was founded in 1998 to teach scientists basic computing skills,
+and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
 Programming Historian was founded in 2008,
 and has evolved into a collaboratively-edited site providing lessons to humanists.
 
 These organizations have been successful in adapting open source development methods
-to the problem of lesson development and maintenance.
+to lesson development and maintenance.
 Their guiding principles are that lessons should be:
 
 \begin{enumerate}
@@ -193,29 +189,14 @@ Their guiding principles are that lessons should be:
 
 \end{enumerate}
 
-Many open education projects satisfy the first criterion,
-but very few satisfy the second.
-While their lessons might periodically be updated by a small author group,
+By definition,
+open education projects satisfy the first criterion,
+but very few satisfy the second:
+while their lessons might occasionally be updated by a small author group,
 as happens when a new edition of a book is edited and published,
-this is not the same as regular, small releases
-from a large community of contributors.
-
-Meeting both criteria is critical for two reasons.
-We need lessons that are up-to-date with the latest information,
-which is crucial given the speed of software development.
-A lag between editions means broken dependencies and bugs.
-Second,
-lessons need to continue to live after a key author moves on
-from being able to maintain them.
-
-This all means that the lessons have the potential to be far more useful.
-The collective knowledge and experience of the community
-is far greater than a single author. The ten simple rules
-that follow aim to help others benefit from the
-lessons we have learned as maintainers, editors, and reviewers of
-these resources.
-
-\fixme{63}{Complete the introduction}
+this is not the same as continuous improvement by a large community of contributors.
+The ten simple rules that follow summarize what we have learned about doing that
+as maintainers, editors, and reviewers of lessons used by tens of thousands of people.
 
 \rulemajor{Clarify your audience.}
 
@@ -323,16 +304,13 @@ Is it complementary to your goals?
 Could it be tweaked or modified to meet your own goals?
 Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated?
 
-\fixme{64}{Discuss discoverability as well as licensing}
-
 Before re-using content,
 make sure to check that the lesson is licensed in an open manner.
-Both Programming Historian and Software Carpentry license their material under
-the Creative Commons - Attribution license
-(see https://creativecommons.org/licenses/by/2.0/).
-This allows people to share and adapt material for any purpose,
-even commercial ones,
-without asking permissions as long as they continue to share the content in a similar manner.
+Both Programming Historian and the various Carpentry projects
+use the Creative Commons - Attribution license
+(see https://creativecommons.org/licenses/by/4.0/),
+which allows people to share and adapt material for any purpose
+as long as they cite the original source.
 
 The same questions of re-use come when thinking about recycling content of a lesson,
 such as images, data, figure, or code.
@@ -341,8 +319,12 @@ If not,
 then ask permission,
 just as you would for any other material.
 
-As you collaboratively develop your own lessons,
-make sure to think about the collaborative contexts of the entire field.
+The converse of this rule is to license your own lessons in a similar open manner,
+and to make them discoverable.
+For example,
+when lessons are published (Rule~7),
+make sure that have the usual keywords in their bibliographic entries
+and HTML page headers.
 
 \rulemajor{Build modular lessons that can be re-purposed.}
 
@@ -537,7 +519,7 @@ meaning they are more likely to give accurate feedback on what they learned
 rather than how entertained they were.
 
 Pre- and post-class surveys also are essential in focusing in on the audience for a given lesson.
-Refering back to Rule~1,
+Referring back to Rule~1,
 it can sometimes be difficult for lesson developers to understand the frame of a given learner
 so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
 that can be expanded on or acknowledged to refine the target audience.
