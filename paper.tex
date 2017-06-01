@@ -269,9 +269,9 @@ Could your planned lesson be tweaked to compliment the existing lessons so that 
 
 Before re-using content,
 make sure to check that the lesson is licensed in an open manner.
-Both Programming Historian and the various Carpentry projects
+Both Programming Historian and the Carpentry projects
 use the Creative Commons - Attribution license
-(see https://creativecommons.org/licenses/by/4.0/),
+(\url{https://creativecommons.org/licenses/by/4.0/}),
 which allows people to share and adapt material for any purpose
 as long as they cite the original source.
 
@@ -368,51 +368,33 @@ they are more likely to try to build the same kind of material.
 Finally,
 teaching people how to teach is a great way to introduce them to each other and build community.
 
-An example of a particular lesson development practice is reverse instructional design
+An example of a particular lesson development practice is \emph{reverse instructional design}
 \cite{wiggins-mctighe}.
 When this is used,
-lessons are built by:
-
-\begin{itemize}
-
-\item
-  identifying the learning objectives,
-
-\item
-  creating \emph{summative assessments} to determine whether those objectives have been met,
-
-\item
-  designing \emph{formative assessments} to gauge learners' progress
-  and give them a chance to practice key skills,
-
-\item
-  putting those formative assessments in order,
-  and
-
-\item
-  writing lessons to connect each to the next.
-
-\end{itemize}
-
-This methodology is effective in its own right,
-but the real benefit comes when everyone understands what is supposed to happen
-in what order.
+lessons are built by
+identifying learning objectives,
+creating \emph{summative assessments} to determine whether those objectives have been met,
+designing \emph{formative assessments} to gauge learners' progress
+and give them a chance to practice key skills,
+putting those formative assessments in order,
+and only then writing lessons to connect each to the next.
+This method is effective in its own right,
+but its greatest benefit is that it gives everyone a common framework
+within which to collaborate.
 
 Another example is Software Carpentry's instructor training program.
 First offered in 2012,
-this gradually turned into a two-day course delivered both in-person and online
+is now a two-day course delivered both in-person and online
 \cite{lessons-learned}.
-This crash course was a natural complement to Software Carpentry's regular workshops:
-while the latter were created so that researchers wouldn't have to teach themselves how to program,
-the former ensures that they don't have to teach themselves how to teach.
-Instructor training now serves and an onboarding process to get everyone on the same page
+Not only does it teach good pedagogical practices,
+it serves and an onboarding process to get everyone on the same page
 regarding who lessons are for,
 how they are delivered,
 and how they are maintained.
 
 \rulemajor{Publish periodically and recognize contributions.}
 
-Similar to publishing software,
+Like software,
 lessons should have releases of fixed content
 so that learners or instructors who may wish to use the material have a stable version to refer to
 for the duration of their use.
@@ -422,39 +404,32 @@ for new learners and instructors just starting their use.
 Periodic releases are also essential
 for enabling recognition of the contribution of authors and maintainers.
 
-The traditional academic system has limited ways of recognizing contributions.
-Until systems have been expanded to improve this,
-it is important to publish your lessons using a mechanism that provides recognition to the contributors.
-Currently an effective way to do this is
-to publish lessons with a DOI supplied by providers such as Zenodo (\url{https://zenodo.org/})
+Academia has only a few ways of recognizing contributions.
+Until these are expanded,
+it is important to publish lessons in ways that traditional academic systems can digest.
+One is to give particular releases of lessons
+DOIs supplied by providers such as Zenodo (\url{https://zenodo.org/})
 or DataCite (\url{https://zenodo.org/}).
 Contributors can be listed as authors
 and the maintainers of the lesson as editors
-to provide differentiated recognition of their contributions.
+to differentiate recognition of their contributions.
+Each time the lesson is published,
+names and (where possible) identifiers like ORCIDs
+should also be gathered for all contributors.
 
 A lesson release is a good opportunity to bring the material into a stable shape
-by fixing outstanding issues and merging contribution.
-The complete name and possible identifier like ORCID should also be gathered for every contributor.
+by fixing outstanding issues and merging contributions.
 Version control helps a lot in continuously maintaining a list of contributors
 but also in remembering which version is used for release
 (e.g., using branches or tags).
-A lesson release is a permanent snapshot of the lesson
-and it is recommended to use a consistent naming scheme from the beginning.
-A convenient naming scheme is to use the full year and month of the release,
-like ``2017.05'',
-as it conveys a clear notion of date,
-even to people that are new to the project.
+Lesson releases should use a consistent naming scheme,
+such as the full year and month of the release,
+e.g. ``2017.05''.
 
-Once the lesson is ready for release and has a name,
-it should be built
-and submitted to DOI supplier with its metadata,
-such as lesson name, authors (e.g., contributors) and editors (e.g., maintainers).
-Due to the collaborative aspect of the lesson development,
-the number of authors and even lessons can grow very fast
-and it is worth spending some time on automating this release process.
-After the formal publishing,
-it is also a good idea to publish the built lesson for direct access by the community,
-making it clear which version is displayed and what is its corresponding DOI.
+If lessons are being released regularly,
+it is worth automating this release process
+with a simple shell script.
+Old versions of lessons should be archived in a discoverable location for reference.
 
 \rulemajor{Evaluate lessons at several scales.}
 
