@@ -1,3 +1,77 @@
+% Template for PLoS
+% Version 3.4 January 2017
+%
+% % % % % % % % % % % % % % % % % % % % % %
+%
+% -- IMPORTANT NOTE
+%
+% This template contains comments intended 
+% to minimize problems and delays during our production 
+% process. Please follow the template instructions
+% whenever possible.
+%
+% % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Once your paper is accepted for publication, 
+% PLEASE REMOVE ALL TRACKED CHANGES in this file 
+% and leave only the final text of your manuscript. 
+% PLOS recommends the use of latexdiff to track changes during review, as this will help to maintain a clean tex file.
+% Visit https://www.ctan.org/pkg/latexdiff?lang=en for info or contact us at latex@plos.org.
+%
+%
+% There are no restrictions on package use within the LaTeX files except that 
+% no packages listed in the template may be deleted.
+%
+% Please do not include colors or graphics in the text.
+%
+% The manuscript LaTeX source should be contained within a single file (do not use \input, \externaldocument, or similar commands).
+%
+% % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- FIGURES AND TABLES
+%
+% Please include tables/figure captions directly after the paragraph where they are first cited in the text.
+%
+% DO NOT INCLUDE GRAPHICS IN YOUR MANUSCRIPT
+% - Figures should be uploaded separately from your manuscript file. 
+% - Figures generated using LaTeX should be extracted and removed from the PDF before submission. 
+% - Figures containing multiple panels/subfigures must be combined into one image file before submission.
+% For figure citations, please use "Fig" instead of "Figure".
+% See http://journals.plos.org/plosone/s/figures for PLOS figure guidelines.
+%
+% Tables should be cell-based and may not contain:
+% - spacing/line breaks within cells to alter layout or alignment
+% - do not nest tabular environments (no tabular environments within tabular environments)
+% - no graphics or colored text (cell background color/shading OK)
+% See http://journals.plos.org/plosone/s/tables for table guidelines.
+%
+% For tables that exceed the width of the text column, use the adjustwidth environment as illustrated in the example table in text below.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- EQUATIONS, MATH SYMBOLS, SUBSCRIPTS, AND SUPERSCRIPTS
+%
+% IMPORTANT
+% Below are a few tips to help format your equations and other special characters according to our specifications. For more tips to help reduce the possibility of formatting errors during conversion, please see our LaTeX guidelines at http://journals.plos.org/plosone/s/latex
+%
+% For inline equations, please be sure to include all portions of an equation in the math environment.  For example, x$^2$ is incorrect; this should be formatted as $x^2$ (or $\mathrm{x}^2$ if the romanized font is desired).
+%
+% Do not include text that is not math in the math environment. For example, CO2 should be written as CO\textsubscript{2} instead of CO$_2$.
+%
+% Please add line breaks to long display equations when possible in order to fit size of the column. 
+%
+% For inline equations, please do not include punctuation (commas, etc) within the math environment unless this is part of the equation.
+%
+% When adding superscript or subscripts outside of brackets/braces, please group using {}.  For example, change "[U(D,E,\gamma)]^2" to "{[U(D,E,\gamma)]}^2". 
+%
+% Do not use \cal for caligraphic font.  Instead, use \mathcal{}
+%
+% % % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Please contact latex@plos.org with any questions.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+
 \documentclass[10pt,letterpaper]{article}
 \usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
 
@@ -32,9 +106,6 @@
 % array package and thick rules for tables
 \usepackage{array}
 
-% enumerate package lets us use letters instead of numbers
-\usepackage{enumerate}
-
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
 
@@ -52,16 +123,15 @@
 \hline
 \noalign{\global\arrayrulewidth\savedwidth}}
 
-\usepackage{color}
 
 % Remove comment for double spacing
-%\usepackage{setspace}
+%\usepackage{setspace} 
 %\doublespacing
 
 % Text layout
 \raggedright
 \setlength{\parindent}{0.5cm}
-\textwidth 5.25in
+\textwidth 5.25in 
 \textheight 8.75in
 
 % Bold the 'Figure #' in the caption and separate it from the title/caption with a period
@@ -95,38 +165,77 @@
 \lfoot{\sf PLOS}
 
 %% Include all macros below
+
+% \newcommand{\lorem}{{\bf LOREM}}
+% \newcommand{\ipsum}{{\bf IPSUM}}
 \newcommand{\rulemajor}[1]{\section{#1}}
+
+%% END MACROS SECTION
+
+
 \begin{document}
 \vspace*{0.2in}
 
+% Title must be 250 characters or less.
 \begin{flushleft}
 {\Large
-\textbf\newline{Ten Simple Rules for Collaborative Lesson Development}
+\textbf\newline{Ten simple rules for collaborative lesson development} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
 }
 \newline
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
 \\
-{Gabriel~A.~Devenyi}\textsuperscript{1},
-{R\'{e}mi~Emonet}\textsuperscript{2},
-{Rayna~M.~Harris}\textsuperscript{3},
-{Kate~Hertweck}\textsuperscript{4},
-{Damien~Irving}\textsuperscript{5},
-{Ian~Milligan}\textsuperscript{6},
-{Greg~Wilson}\textsuperscript{7, *}
+{Gabriel~A.~Devenyi}\textsuperscript{1{\ddag}},
+{R\'{e}mi~Emonet}\textsuperscript{2{\ddag}},
+{Rayna~M.~Harris}\textsuperscript{3{\ddag}},
+{Kate~Hertweck}\textsuperscript{4{\ddag}},
+{Damien~Irving}\textsuperscript{5{\ddag}},
+{Ian~Milligan}\textsuperscript{6{\ddag}},
+{Greg~Wilson}\textsuperscript{7{\ddag}*}
 \\
+\bigskip
 \textbf{1} Douglas Mental Health University Institute, McGill University / gdevenyi@gmail.com \\
 \textbf{2} Universit\'{e} Jean Monnet / remi.emonet@univ-st-etienne.fr \\
 \textbf{3} The University of Texas at Austin / rayna.harris@utexas.edu \\
 \textbf{4} The University of Texas at Tyler / khertweck@uttyler.edu \\
 \textbf{5} CSIRO Oceans and Atmosphere / irving.damien@gmail.com \\
 \textbf{6} University of Waterloo / i2millig@uwaterloo.ca \\
-\textbf{7} Rangle.io / gvwilson@third-bit.com
-\\
-* Corresponding author.
+\textbf{7} Rangle.io / gvwilson@third-bit.com \\
+
+\bigskip
+
+% Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
+% 
+% Remove or comment out the author notes below if they aren't used.
+%
+% Primary Equal Contribution Note
+{\ddag} These authors contributed equally to this work.
+
+% Additional Equal Contribution Note
+% Also use this double-dagger symbol for special authorship notes, such as senior authorship.
+% \ddag These authors also contributed equally to this work.
+
+% Current address notes
+% \textcurrency Current Address: Dept/Program/Center, Institution Name, City, State, Country % change symbol to "\textcurrency a" if more than one current address note
+% \textcurrency b Insert second current address 
+% \textcurrency c Insert third current address
+
+% Deceased author note
+% \dag Deceased
+
+% Group/Consortium Author Note
+% \textpilcrow Membership list can be found in the Acknowledgments section.
+
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
+* corresponding author
+
 \end{flushleft}
 
-\begin{abstract}
+% Please keep the abstract below 300 words
 
-\noindent
+\linenumbers
+
+\section*{Abstract}
+
 Lessons take significant effort to build,
 and even more effort to maintain.
 The collaborative code development methods pioneered by the open source community
@@ -136,9 +245,11 @@ accessible,
 and continually updated and improved by a community of contributors.
 This paper provides ten simple rules that can help others create sustainable lessons.
 
-\end{abstract}
 
-\section*{Author Summary}
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLOS ONE authors please skip this step. 
+% Author Summary not valid for PLOS ONE submissions.   
+\section*{Author summary}
 
 The model of collaborative code development presents an 
 alternative model to traditional scientific lesson 
@@ -146,6 +257,8 @@ development. By leveraging a community approach, educational
 resources can be more sustainable, robust, and responsive. 
 These ten simple rules outline best practices for this model of 
 collaborative resource development.
+
+% Use "Eq" instead of "Equation" for equation citations.
 
 \section*{Introduction}
 
@@ -201,7 +314,7 @@ this is not the same as continuous improvement by a large community of contribut
 The ten simple rules that follow summarize what we have learned about doing that
 as maintainers, editors, and reviewers of lessons used by tens of thousands of people.
 
-\rulemajor{Clarify your audience.}
+\rulemajor{Clarify your audience}
 
 The first requirement for building lessons together is
 to know who they are being built for.
@@ -232,7 +345,7 @@ what \emph{they} think they want to do,
 how the material will help them,
 and any special needs they might have.
 
-\rulemajor{Build community around lessons.}
+\rulemajor{Build community around lessons}
 
 Lessons don't maintain themselves.
 For technical lessons software versions and dependencies are constantly changing,
@@ -253,7 +366,7 @@ As we note below,
 this only works if you make space for
 little contributions just as you do for larger ones.
 
-\rulemajor{Reduce, re-use, recycle.}
+\rulemajor{Reduce, re-use, recycle}
 
 Don't create a new lesson if there is an existing one that you can use or contribute to.
 Just as a scholar would not write a paper without a literature review,
@@ -288,7 +401,7 @@ when lessons are published (Rule~7),
 make sure that have the usual keywords in their bibliographic entries
 and HTML page headers.
 
-\rulemajor{Build modular lessons that can be re-purposed.}
+\rulemajor{Build modular lessons that can be re-purposed}
 
 Every instructor's needs are different,
 so build small chunks that can be re-purposed in many ways.
@@ -309,7 +422,7 @@ it can be much easier for people to find them and integrate them.
 Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
 so this rule further emphasizes the importance of Rule~1.
 
-\rulemajor{Encourage and empower contributors.}
+\rulemajor{Encourage and empower contributors}
 
 It takes a village to ensure
 the steady improvement and adaptation that will give a lesson a long life.
@@ -352,7 +465,7 @@ At Programming Historian,
 for example,
 an ombudsperson is available for private chats and facilitation.
 
-\rulemajor{Teach best practices for lesson development.}
+\rulemajor{Teach best practices for lesson development}
 
 Decades of pedagogical research has yielded many insights into
 how best to build and deliver lessons \cite{hlw}.
@@ -394,7 +507,7 @@ regarding who lessons are for,
 how they are delivered,
 and how they are maintained.
 
-\rulemajor{Publish periodically and recognize contributions.}
+\rulemajor{Publish periodically and recognize contributions}
 
 Like software,
 lessons should have releases of fixed content
@@ -433,7 +546,7 @@ it is worth automating this release process
 with a simple shell script.
 Old versions of lessons should be archived in a discoverable location for reference.
 
-\rulemajor{Evaluate lessons at several scales.}
+\rulemajor{Evaluate lessons at several scales}
 
 The purpose of feedback is to guide lesson development
 so that authors aren't designing and arguing in a vacuum.
@@ -464,7 +577,7 @@ it can sometimes be difficult for lesson developers to understand the frame of a
 so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
 that can be expanded on or acknowledged to refine the target audience.
 
-\rulemajor{Link to other resources.}
+\rulemajor{Link to other resources}
 
 Most learners are unlikely to absorb everything there is to know about a topic
 from your lesson alone.
@@ -491,7 +604,7 @@ it is vital to engage the learners as equal participants in that community:
 they should both be able to propose updates, corrections, and additions to lessons,
 and know that they are encouraged to do so (Rule~5).
 
-\rulemajor{You can't please everyone.}
+\rulemajor{You can't please everyone}
 
 No single lesson can be right for every learner.
 Two people with no prior knowledge of a specific subject
@@ -543,7 +656,49 @@ that can be continually improved by those who use them.
 We hope that our experiences can help others teach more
 with more impact and less effort.
 
-\bibliography{paper}
+\nolinenumbers
+
+% Either type in your references using
+% \begin{thebibliography}{}
+% \bibitem{}
+% Text
+% \end{thebibliography}
+%
+% or
+%
+% Compile your BiBTeX database using our plos2015.bst
+% style file and paste the contents of your .bbl file
+% here. See http://journals.plos.org/plosone/s/latex for 
+% step-by-step instructions.
+% 
+
+\begin{thebibliography}{1}
+
+\bibitem{hlw}
+Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK.
+\newblock How Learning Works.
+\newblock Jossey-Bass; 2010.
+
+\bibitem{wiggins-mctighe}
+Wiggins G, McTighe J.
+\newblock Understanding by Design.
+\newblock 2nd ed. Association for Supervision and Curriculum Development; 2005.
+
+\bibitem{lessons-learned}
+Wilson G.
+\newblock Software Carpentry: Lessons Learned.
+\newblock F1000Research. 2016;3(62).
+\newblock doi:{10.12688/f1000research.3-62.v2}.
+
+\bibitem{choral-explanations}
+Caulfield M. Choral Explanations; 2016.
+\newblock https://hapgood.us/2016/05/13/choral-explanations/.
+
+\bibitem{producing-oss}
+Fogel K.
+\newblock Producing Open Source Software.
+\newblock O'Reilly; 2005.
+
+\end{thebibliography}
 
 \end{document}
-
