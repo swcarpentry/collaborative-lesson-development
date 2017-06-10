@@ -245,7 +245,6 @@ accessible,
 and continually updated and improved by a community of contributors.
 This paper provides ten simple rules that can help others create sustainable lessons.
 
-
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step.
 % Author Summary not valid for PLOS ONE submissions.
@@ -290,7 +289,8 @@ Software Carpentry and Programming Historian.
 Software Carpentry was founded in 1998 to teach scientists basic computing skills,
 and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
 Programming Historian was founded in 2008,
-and has evolved into a collaboratively-edited site providing lessons to humanists. These organizations have been successful in adapting open source development methods
+and has evolved into a collaboratively-edited site providing lessons to humanists.
+These organizations have been successful in adapting open source development methods
 to lesson development and maintenance.
 Their guiding principles are that lessons should be:
 
@@ -305,10 +305,9 @@ Their guiding principles are that lessons should be:
 
 \end{enumerate}
 
-By definition,
-many open education projects satisfy the first criterion,
-but very few satisfy the second:
-while their lessons might occasionally be updated by a small author group,
+Open education projects satisfy the first criterion by definition,
+but very few projects satisfy the second.
+While their lessons might occasionally be updated by a small author group,
 as happens when a new edition of a book is edited and published,
 this is not the same as continuous improvement by a large community of contributors.
 The ten simple rules that follow summarize what we have learned about doing that
@@ -427,7 +426,7 @@ This method is effective in its own right,
 but its greatest benefit is that it gives everyone a common framework
 within which to collaborate.
 
-Another example is Software Carpentry's instructor training program.
+An example of how to teach these practices is Software Carpentry's instructor training program.
 First offered in 2012,
 is now a two-day course delivered both in-person and online
 \cite{lessons-learned,instructor-training,how-to-teach-programming}.
@@ -439,11 +438,8 @@ and how they are maintained.
 
 \rulemajor{Encourage and empower contributors}
 
-It takes a village to ensure
-the steady improvement and adaptation that will give a lesson a long life.
-Ensuring this, however, is not straightforward.
-
-Making the process explicit is key.
+Making the process for contributing to a lesson explicit is
+the key to actually getting contributions.
 New contributors require a straightforward and transparent introduction
 to understand the process of tweaking and adapting lessons.
 Licensing, code of conduct, governance, and contribution procedure
@@ -454,27 +450,27 @@ Tools can help,
 especially if they allow proposed changes to be viewed and discussed
 prior to their incorporation/merger into the lessons
 (in open source software development this is known as ``pre-merge review'').
-Yet some of these tools come with a considerable up-front learning curve.
+Providing a gentle on-ramp for new contributors is essential,
+but some tools come with a considerable up-front learning curve.
 GitHub with pull requests is ideal for pre-merge review, for instance,
-but it requires contributors to understand the basics of the git version control software.
+but it requires contributors to know how to use Git,
+which is a famously user-hostile tool.
 Allowing people to edit a Google Doc or Wiki-based editing does not offer pre-merge review,
 but the low barrier to entry can help get conversations started.
-In a pinch,
-work with contributors to find a comfort zone:
-don't let a collaboration flounder on technological choice.
-But make sure not to overwhelm either:
-threaded discussion on paticular topics (e.g. GitHub issues) can help increase the signal-to-noise ratio
+
+The best way to choose tools for managing lessons
+is to look for those that provide a gentle on-ramp for new contributors.
+Ask potential contributors what they are comfortable with
+rather than requiring \emph{them} to come to \emph{you}.
+Remember also that contributing to a lesson is probably not their top priority,
+and look for ways to reduce their cognitive load.
+For example,
+threaded discussion on particular topics (e.g., using GitHub issues)
+can help increase the signal-to-noise ratio
 by reducing long reply-all email excahnges.
 
-Ultimately,
-community dynamics are more important than platform.
-We have seen the 90/9/1 rule:
-90\% of people watch, 9\% discuss, 1\% do.
-This requires a gentle on-ramp for new contributors,
-that we make it easy for people to submit errata and suggestions,
-and that editors may need to do triage to ensure that voices are heard.
-Finally, with so many voices and contributions come caution.
-Working in the open can be great,
+Finally,
+working in the open can be great,
 but can also unintentionally suppress voices.
 At Programming Historian,
 for example,
@@ -517,8 +513,8 @@ This is the scheme Software Carpentry has used in
 its releases of its lessons \cite{shell2015,shell2017}.
 
 If lessons are being released regularly,
-it is worth automating this release process
-with a simple shell script.
+automate the process
+with a shell script or something similar.
 Old versions of lessons should be archived in a discoverable location for reference.
 
 \rulemajor{Evaluate lessons at several scales}
@@ -729,6 +725,5 @@ Fogel K.
 \newblock O'Reilly; 2005.
 
 \end{thebibliography}
-
 
 \end{document}
