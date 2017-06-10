@@ -366,41 +366,6 @@ As we note below,
 this only works if you make space for
 little contributions just as you do for larger ones.
 
-\rulemajor{Reduce, re-use, recycle}
-
-Don't create a new lesson if there is an existing one that you can use or contribute to.
-Just as a scholar would not write a paper without a literature review,
-the same holds for lessons.
-Before writing that introduction to the Bash command line,
-for example,
-do a search:
-has anybody else written it?
-Is it complementary to your goals?
-Could it be tweaked or modified to meet your own goals?
-Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated?
-
-Before re-using content,
-make sure to check that the lesson is licensed in an open manner.
-Both Programming Historian and the Carpentry projects
-use the Creative Commons - Attribution license
-(\url{https://creativecommons.org/licenses/by/4.0/}),
-which allows people to share and adapt material for any purpose
-as long as they cite the original source.
-
-The same questions of re-use come when thinking about recycling content of a lesson,
-such as images, data, figure, or code.
-Does the license cover that as well?
-If not,
-then ask permission,
-just as you would for any other material.
-
-The converse of this rule is to license your own lessons in a similar open manner,
-and to make them discoverable.
-For example,
-when lessons are published (Rule~7),
-make sure that have the usual keywords in their bibliographic entries
-and HTML page headers.
-
 \rulemajor{Build modular lessons that can be re-purposed}
 
 Every instructor's needs are different,
@@ -413,7 +378,7 @@ physics and chemistry consist of numerous small, discrete lessons,
 as opposed to a few large, monolithic lessons.
 
 Doing this shifts the instructor's burden from writing to finding and synthesizing,
-both of which are easier if lessons have been designed by people with a shared world-view (Rule~6),
+both of which are easier if lessons have been designed by people with a shared world-view (Rule~4),
 and if lessons clearly signal what they cover (Rule~1).
 In particular,
 if lessons reference specific points in the model curriculum guidelines promulgated by many professional societies,
@@ -421,6 +386,48 @@ it can be much easier for people to find them and integrate them.
 
 Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
 so this rule further emphasizes the importance of Rule~1.
+
+\rulemajor{Teach best practices for lesson development}
+
+Decades of pedagogical research has yielded many insights into
+how best to build and deliver lessons \cite{hlw}.
+Unfortunately,
+since most college and university faculty have little or no training in education,
+this knowledge and expertise is rarely transferred into classroom practice.
+
+Experience shows that even a brief introduction to a handful of key practices
+can help collaborative lesson development in at least three ways.
+If people have a shared understanding of how lessons should be developed,
+it is easier for them to work together.
+Less obviously,
+if people have a shared model of how lessons are going to be \emph{used},
+they are more likely to try to build the same kind of material.
+Finally,
+teaching people how to teach is a great way to introduce them to each other and build community.
+
+An example of a particular lesson development practice is \emph{reverse instructional design}
+\cite{wiggins-mctighe}.
+When this is used,
+lessons are built by
+identifying learning objectives,
+creating \emph{summative assessments} to determine whether those objectives have been met,
+designing \emph{formative assessments} to gauge learners' progress
+and give them a chance to practice key skills,
+putting those formative assessments in order,
+and only then writing lessons to connect each to the next.
+This method is effective in its own right,
+but its greatest benefit is that it gives everyone a common framework
+within which to collaborate.
+
+Another example is Software Carpentry's instructor training program.
+First offered in 2012,
+is now a two-day course delivered both in-person and online
+\cite{lessons-learned,instructor-training,how-to-teach-programming}.
+Not only does it teach good pedagogical practices,
+it serves and an onboarding process to get everyone on the same page
+regarding who lessons are for,
+how they are delivered,
+and how they are maintained.
 
 \rulemajor{Encourage and empower contributors}
 
@@ -464,48 +471,6 @@ but can also unintentionally suppress voices.
 At Programming Historian,
 for example,
 an ombudsperson is available for private chats and facilitation.
-
-\rulemajor{Teach best practices for lesson development}
-
-Decades of pedagogical research has yielded many insights into
-how best to build and deliver lessons \cite{hlw}.
-Unfortunately,
-since most college and university faculty have little or no training in education,
-this knowledge and expertise is rarely transferred into classroom practice.
-
-Experience shows that even a brief introduction to a handful of key practices
-can help collaborative lesson development in at least three ways.
-If people have a shared understanding of how lessons should be developed,
-it is easier for them to work together.
-Less obviously,
-if people have a shared model of how lessons are going to be \emph{used},
-they are more likely to try to build the same kind of material.
-Finally,
-teaching people how to teach is a great way to introduce them to each other and build community.
-
-An example of a particular lesson development practice is \emph{reverse instructional design}
-\cite{wiggins-mctighe}.
-When this is used,
-lessons are built by
-identifying learning objectives,
-creating \emph{summative assessments} to determine whether those objectives have been met,
-designing \emph{formative assessments} to gauge learners' progress
-and give them a chance to practice key skills,
-putting those formative assessments in order,
-and only then writing lessons to connect each to the next.
-This method is effective in its own right,
-but its greatest benefit is that it gives everyone a common framework
-within which to collaborate.
-
-Another example is Software Carpentry's instructor training program.
-First offered in 2012,
-is now a two-day course delivered both in-person and online
-\cite{lessons-learned,instructor-training,how-to-teach-programming}.
-Not only does it teach good pedagogical practices,
-it serves and an onboarding process to get everyone on the same page
-regarding who lessons are for,
-how they are delivered,
-and how they are maintained.
 
 \rulemajor{Publish periodically and recognize contributions}
 
@@ -578,6 +543,41 @@ Referring back to Rule~1,
 it can sometimes be difficult for lesson developers to understand the frame of a given learner,
 so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
 that can be expanded on or acknowledged to refine the target audience.
+
+\rulemajor{Reduce, re-use, recycle}
+
+Don't create a new lesson if there is an existing one that you can use or contribute to.
+Just as a scholar would not write a paper without a literature review,
+the same holds for lessons.
+Before writing that introduction to the Bash command line,
+for example,
+do a search:
+has anybody else written it?
+Is it complementary to your goals?
+Could it be tweaked or modified to meet your own goals?
+Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated?
+
+Before re-using content,
+make sure to check that the lesson is licensed in an open manner.
+Both Programming Historian and the Carpentry projects
+use the Creative Commons - Attribution license
+(\url{https://creativecommons.org/licenses/by/4.0/}),
+which allows people to share and adapt material for any purpose
+as long as they cite the original source.
+
+The same questions of re-use come when thinking about recycling content of a lesson,
+such as images, data, figure, or code.
+Does the license cover that as well?
+If not,
+then ask permission,
+just as you would for any other material.
+
+The converse of this rule is to license your own lessons in a similar open manner,
+and to make them discoverable.
+For example,
+when lessons are published (Rule~6),
+make sure that have the usual keywords in their bibliographic entries
+and HTML page headers.
 
 \rulemajor{Link to other resources}
 
