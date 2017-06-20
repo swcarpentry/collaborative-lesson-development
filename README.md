@@ -1,12 +1,12 @@
 # Ten simple rules for collaborative lesson development
 
-Gabriel A. Devenyi^1^,
-Rémi Emonet^2^,
-Rayna M. Harris^3^,
-[Kate L. Hertweck^4^,
-Damien Irving^5^,
-Ian Milligan^6^,
-Greg Wilson^7^
+Gabriel A. Devenyi<sup>1</sup>,
+Rémi Emonet<sup>2</sup>,
+Rayna M. Harris<sup>3</sup>,
+[Kate L. Hertweck<sup>4</sup>,
+Damien Irving<sup>5</sup>,
+Ian Milligan<sup>6</sup>,
+Greg Wilson<sup>7</sup>
 
 1. Douglas Mental Health University Institute, McGill University / gdevenyi@gmail.com
 2. Univ Lyon, UJM-Saint-Etienne, F-42023, France / remi.emonet@univ-st-etienne.fr
