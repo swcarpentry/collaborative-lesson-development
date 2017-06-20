@@ -370,7 +370,7 @@ These splits rarely happen in practice. When they do, it is important to
 remember that we all share the same vision of better lessons, built
 together.
 
-## Conclusion {#conclusion .unnumbered}
+## Conclusion
 
 Every day, teachers all over the world spend countless hours duplicating
 each other’s work. These ten rules provide an alternative: adopting the
