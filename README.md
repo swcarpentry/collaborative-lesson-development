@@ -3,7 +3,7 @@
 Gabriel A. Devenyi<sup>1</sup>,
 Rémi Emonet<sup>2</sup>,
 Rayna M. Harris<sup>3</sup>,
-[Kate L. Hertweck<sup>4</sup>,
+Kate L. Hertweck<sup>4</sup>,
 Damien Irving<sup>5</sup>,
 Ian Milligan<sup>6</sup>,
 Greg Wilson<sup>7</sup>
@@ -177,7 +177,7 @@ collaborate.
 An example of how to teach these practices is Software Carpentry’s
 instructor training program. First offered in 2012, is now a two-day
 course delivered both in-person and online
-[@lessons-learned; @instructor-training; @how-to-teach-programming]. Not
+[@lessons-learned; @instructor-training; @h2tp]. Not
 only does it teach good pedagogical practices, it serves and an
 introductory process to get everyone on the same page regarding who
 lessons are for, how they are delivered, and how they are maintained.
@@ -320,7 +320,7 @@ Most learners are unlikely to absorb everything there is to know about a
 topic from your lesson alone. This is partly a matter of scope—any
 interesting subject is too large to fit in a single lesson—but also a
 matter of level and direction. As Caulfield has argued
-[@choral-explanations], the best resources provide a chorus of
+[@choral], the best resources provide a chorus of
 explanations that offer many angles and approaches for any given topic,
 each of which may be the best fit for a different subset of people.
 
@@ -354,7 +354,7 @@ contributors *do not* disagree: weighing alternatives fosters
 higher-order thinking, and as Caulfield has written, the most popular
 online question and answer sites are successful in part because they
 present a chorus of explanations geared at different levels and needs
-rather than a single one [@choral-explanations].
+rather than a single one [@choral].
 
 But sometimes choices must be made. The open source software community
 has wrestled with these issues for three decades, and has evolved some
@@ -381,30 +381,30 @@ impact and less effort.
 
 ## Bibliography
 
-Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How Learning
+[@hlw] Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How Learning
 Works. Jossey-Bass; 2010.
 
-Wiggins G, McTighe J. Understanding by Design. 2nd ed. Association for
+[@wiggins-mctighe} Wiggins G, McTighe J. Understanding by Design. 2nd ed. Association for
 Supervision and Curriculum Development; 2005.
 
-Wilson G. Software Carpentry: Lessons Learned. F1000Research.
+[@lessons-learned] Wilson G. Software Carpentry: Lessons Learned. F1000Research.
 2016;3(62). 10.12688/f1000research.3-62.v2.
 
-Christina Koch and Greg Wilson (eds.) Software Carpentry: Instructor
+[@instructor-training] Christina Koch and Greg Wilson (eds.) Software Carpentry: Instructor
 Training; 2016. <https://zenodo.org/record/57571#.WS8huDOZPdQ>.
 
-Wilson G. How to Teach Programming (And Other Things). Lulu.com; 2017.
+[@h2tp] Wilson G. How to Teach Programming (And Other Things). Lulu.com; 2017.
 
-Gabriel A. Devenyi and Christina Koch (eds.): Software Carpentry: The
+[@shell2015] Gabriel A. Devenyi and Christina Koch (eds.): Software Carpentry: The
 Unix Shell; 2015. <https://zenodo.org/record/27355#.WS8lajOZPdQ>.
 
-Gabriel A. Devenyi and Ashwin Srinath (eds.): Software Carpentry: The
+[@shell2017] Gabriel A. Devenyi and Ashwin Srinath (eds.): Software Carpentry: The
 Unix Shell; 2017. <https://zenodo.org/record/278226#.WS74tTOZPdQ>.
 
-Caulfield M. Choral Explanations; 2016.
+[@choral] Caulfield M. Choral Explanations; 2016.
 <https://hapgood.us/2016/05/13/choral-explanations/>.
 
-Fogel K. Producing Open Source Software. O’Reilly; 2005.
+[@producing-oss] Fogel K. Producing Open Source Software. O’Reilly; 2005.
 
-GitLab Global Developer Survey.
+[@git-survey] GitLab Global Developer Survey.
 <http://get.gitlab.com/global-developer-survey/>; 2016.
