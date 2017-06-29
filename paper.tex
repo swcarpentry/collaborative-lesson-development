@@ -109,6 +109,9 @@
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
 
+% frames around boxes
+\usepackage{mdframed}
+
 % create \thickcline for thick horizontal lines of variable length
 \newlength\savedwidth
 \newcommand\thickcline[1]{%
@@ -351,6 +354,31 @@ what they already know,
 what \emph{they} think they want to do,
 how the material will help them,
 and any special needs they might have.
+
+\begin{mdframed}
+
+\noindent
+Box 1: Learner Profile
+
+Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
+While fluent in both Spanish and English,
+he has a hearing disability that sometimes makes it hard for him to understand lectures,
+particularly in noisy environments.
+Other than using Excel, Word, and the Internet,
+Jorge's most significant previous experience with computers is
+helping his sister build a WordPress site for the family business.
+
+Jorge needs to measure properties of soil from nearby farms
+using a handheld device that sends text files to his computer.
+Right now, Jorge has to open each file in Excel,
+crop the first and last points,
+and calculate an average.
+This workshop will show Jorge how to write a little Python program
+to read the data,
+select the right values from each file,
+and calculate the required statistics.
+
+\end{mdframed}
 
 \rulemajor{Build modular lessons that can be re-purposed}
 

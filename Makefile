@@ -11,8 +11,6 @@ commands :
 ## pdf        : re-generate PDF
 pdf :
 	${LATEX} ${STEM}
-	${BIBTEX} ${STEM}
-	${LATEX} ${STEM}
 	${LATEX} ${STEM}
 
 ## clean      : clean up junk files.
