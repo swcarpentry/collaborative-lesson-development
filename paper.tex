@@ -239,62 +239,57 @@
 
 \section*{Abstract}
 
-Lessons take significant effort to build,
-and even more effort to maintain.
-The collaborative code development methods pioneered by the open source community
-offer a way forward,
-allowing us to create lessons which are open,
-accessible,
-and continually updated and improved by a community of contributors.
-This paper provides ten simple rules that can help others create sustainable lessons.
+The collaborative development methods pioneered by the open source software community
+offer a way to create lessons that are open, accessible, and sustainable.
+This paper presents ten simple rules for doing this
+drawn from our experience with several successful projects.
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step.
 % Author Summary not valid for PLOS ONE submissions.
 \section*{Author summary}
 
-The model of collaborative code development presents an
-alternative model to traditional scientific lesson
-development. By leveraging a community approach, educational
-resources can be more sustainable, robust, and responsive.
-These ten simple rules outline best practices for this model of
-collaborative resource development.
+Lessons take significant effort to build and  maintain.
+We have found that
+the collaborative development methods pioneered by the open source software community
+are an effective, economical way to create and sustain lessons
+that can be used by large numbers of people in a wide variety of contexts.
+The ten simple rules outlined in this paper
+summarize the best practices that we have helped evolve
+in several successful open education projects aimed at researchers and research librarians
+in a wide range of disciplines.
 
 % Use "Eq" instead of "Equation" for equation citations.
 
 \section*{Introduction}
 
-Lessons take significant time and energy to build and even more effort to maintain.
-Collaborative lesson development refers to the combined efforts of teachers to build and maintain lessons.
-By leveraging a community approach, educational resources can be more sustainable, robust, and responsive.
-When lessons are created in an open source community, all lessons are open and accessible,
-and they can be continually updated and improved by a community of contibutors.
+Lessons take significant effort to build and even more to maintain.
+Most academics do this work on their own,
+but leveraging a community approach
+can make educational resource development more sustainable, robust, and responsive.
+Treating lessons as a community resource
+to be updated, adapted, and improved incrementally,
+can free up valuable time while increasing quality.
 
-Despite the proven success of open-source and collaboratively developed lesson plans,
-it is uncommon in the traditional accademic setting.
-Each year, thousands of university lecturers teach subjects ranging from first year biology,
+Despite the success of openness in software development and the curation of Wikipedia,
+it is an uncommon approach in accademic settings.
+Each year,
+thousands of university lecturers teach subjects ranging from first year biology,
 to graduate-level courses in Indian film.
-Some use a common textbook written by a single author or two,
-but besides that lecturers develop and improve their course materials in isolation.
-It is staggering to think how many wheels are being re-invented,
-how much valuable time has been wasted,
-and ultimately how the progress of post-secondary education has been held back by
-the lack of community collaboration and sharing in this process.
-This problem obviously extends beyond the university sector,
-but it is curious that it is endemic in post-secondary education,
-given that research depends so critically on collaboration and sharing,
-and that most researchers complain about how much time teaching takes away from research.
+Some use textbooks written by one or a few authors,
+but beyond that,
+they develop and maintain their course materials in isolation.
+This is curious given that research depends critically on sharing,
+and that most researchers complain about how much time teaching takes away from research,
+but the sociology and pscyhology behind this blind spot are out of the scope of this paper.
 
-The authors collectively have experience with community-developed lesson plans
-in the context of research computing in the sciences and humanities.
-They primarily draw on their experiences with pedagogical organizations such as
-Software Carpentry and Programming Historian.
+The authors have many years of experience with community-developed lessons
+in the context of research computing in the sciences and humanities
+through organizations like Software Carpentry and Programming Historian.
 Software Carpentry was founded in 1998 to teach scientists basic computing skills,
 and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
 Programming Historian was founded in 2008,
 and has evolved into a collaboratively-edited site providing lessons to humanities scholars.
-These organizations have been successful in adapting open source development methods
-to lesson development and maintenance.
 Their guiding principles are that lessons should be:
 
 \begin{enumerate}
@@ -308,21 +303,12 @@ Their guiding principles are that lessons should be:
 
 \end{enumerate}
 
-Open education projects satisfy the first criterion by definition,
-but few projects satisfy the second.
-While their lessons are occasionally updated by a small author group,
-as happens when a new edition of a book is edited and published,
+All open education projects satisfy the first criterion by definition,
+but few satisfy the second.
+While their lessons are occasionally updated by a small team
+(as happens when a new edition of a book is edited and published),
 this is not the same as continuous improvement by a large community of contributors.
-The ten simple rules that follow summarize what we have learned about doing that
-as maintainers, editors, and reviewers of lessons used by tens of thousands of people.
-
-%%%%% Figure  dissociation
-\begin{figure}[ht]  % h = here, t = top, b = bottom, p = float
-\includegraphics[width=\linewidth]{figure1}
-\caption{Graphical abstract of 10 simple rules for collaborative lesson development}
-\label{figure1}
-\end{figure}
-%
+The ten simple rules that follow summarize what we have learned about doing that.
 
 \rulemajor{Clarify your audience}
 
@@ -333,19 +319,10 @@ are you and your collaborators thinking of
 first-year students who need an introduction to the field,
 graduate students who intend to specialize in the sub-discipline which is the lesson's focus,
 or someone in between?
-Prerequisite knowledge,
+If different contributors believe different things about prerequisite knowledge,
 equipment or software required,
-how much time learners will have:
-if different contributors believe different things about these,
-they will find it difficult or impossible to work together.
-
-Thinking systematically about difficulty levels can help manage expectations.
-For example,
-Programming Historian project labels lessons ``beginner'',
-``intermediate'',
-and ``advanced''
-to help authors write at appropriate levels.
-This method works, however, only if there is prior agreement on what those terms mean.
+or how much time learners will have,
+they will find it difficult to work together.
 
 Rather than itemizing prior knowledge and learning objectives,
 it can be helpful to write \emph{learner profiles} to clarify
@@ -354,204 +331,182 @@ what they already know,
 what \emph{they} think they want to do,
 how the material will help them,
 and any special needs they might have.
+This technique is borrowed from user interface design,
+and a typical learner profile is presented in Box~1.
 
-\begin{mdframed}
-
-\noindent
-Box 1: Learner Profile
-
-Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
-While fluent in both Spanish and English,
-he has a hearing disability that sometimes makes it hard for him to understand lectures,
-particularly in noisy environments.
-Other than using Excel, Word, and the Internet,
-Jorge's most significant previous experience with computers is
-helping his sister build a WordPress site for the family business.
-
-Jorge needs to measure properties of soil from nearby farms
-using a handheld device that sends text files to his computer.
-Right now, Jorge has to open each file in Excel,
-crop the first and last points,
-and calculate an average.
-This workshop will show Jorge how to write a little Python program
-to read the data,
-select the right values from each file,
-and calculate the required statistics.
-
-\end{mdframed}
-
-\rulemajor{Build modular lessons that can be re-purposed}
+\rulemajor{Make lessons modular}
 
 Every instructor's needs are different,
 so build small chunks that can be re-purposed in many ways.
-A university lecturer in meteorology, for instance,
-might construct a course by bringing together lessons on differential equations,
-fluid mechanics and absorption spectroscopy.
-This task is greatly simplified if existing courses on mathematics,
-physics and chemistry consist of numerous small, discrete lessons,
-as opposed to a few large, monolithic lessons.
+A university lecturer in meteorology,
+for instance,
+might construct a course for their students by bringing together lessons on differential equations,
+fluid mechanics,
+and absorption spectroscopy.
+Creating courses this way shifts the instructor's burden from writing to finding and synthesizing,
+which are easier if lessons clearly define what they cover (Rule~1),
+and if lessons have been designed by people with a shared world-view (Rule~3).
 
-Doing this shifts the instructor's burden from writing to finding and synthesizing,
-both of which are easier if lessons have been designed by people with a shared world-view (Rule~4),
-and if lessons clearly signal what they cover (Rule~1).
-In particular,
-if lessons reference specific points in the model curriculum guidelines promulgated by many professional societies,
-it can be much easier for people to find them and integrate them.
-
-Note also that individual lesson topics hinge on the learners having the proper prerequisite background,
-so this rule further emphasizes the importance of Rule~1.
+One way to achieve this is to take existing courses and break them down into smaller, single-purpose modules
+(a change which has pedagogical and administrative advantages in its own right).
+When this is done,
+these modules can be made more discoverable
+by referencing specific points in the model curricula promulgated by many professional societies.
+Smaller modules are also more approachable for new contributors (Rule~4).
 
 \rulemajor{Teach best practices for lesson development}
 
 Decades of pedagogical research has yielded many insights into
 how best to build and deliver lessons \cite{hlw}.
 Unfortunately,
-since a large number of college and university faculty have little or no training in education \cite{browning2012},
-this knowledge and expertise is rarely transferred into classroom practice.
+many college and university faculty have little or no training in education \cite{browning2012},
+so this knowledge is rarely applied in the classroom.
 
-Experience shows that even a brief introduction to a handful of key practices
-can help collaborative lesson development in at least three ways.
+Our experience is that even a brief introduction to a few key practices
+helps collaborative lesson development.
 If people have a shared understanding of how lessons should be developed,
 it is easier for them to work together.
 Less obviously,
 if people have a shared model of how lessons will be \emph{used},
-they are more likely to try to build the same kind of material.
+they are more likely to build reusable material.
 Finally,
 teaching people how to teach is a great way to introduce them to each other and build community.
 
-An example of a particular lesson development practice is \emph{reverse instructional design}
-\cite{wiggins-mctighe}.
+One popular lesson development methodology is presented in \cite{wiggins-mctighe}.
 When this is used,
-lessons are built by
-identifying learning objectives,
-creating \emph{summative assessments} to determine whether those objectives have been met,
-designing \emph{formative assessments} to gauge learners' progress
-and give them a chance to practice key skills,
-putting those formative assessments in order,
-and only then writing lessons to connect each to the next.
+lessons are built by:
+
+\begin{enumerate}
+
+  \item
+    identifying learning objectives,
+
+  \item
+    creating \emph{summative assessments} to determine whether those objectives have been met,
+
+  \item
+    designing \emph{formative assessments} to gauge learners' progress
+    and give them a chance to practice key skills,
+
+  \item
+    putting those formative assessments in order,
+
+  \item
+    and only then writing lessons to connect each to the next.
+
+\end{enumerate}
+
+\noindent
 This method is effective in its own right,
-but its greatest benefit is that it gives everyone a common framework
-within which to collaborate.
+but its greatest benefit is that it gives everyone a framework for collaboration.
 
 An example of how to teach these practices is Software Carpentry's instructor training program.
 First offered in 2012,
 is now a two-day course delivered both in-person and online
 \cite{lessons-learned,instructor-training,how-to-teach-programming}.
-Not only does it teach good pedagogical practices,
-it serves and an introductory process to get everyone on the same page
-regarding who lessons are for,
+This program teaches good pedagogical practices,
+and introduces everyone who takes it to who Software Carpentry's lessons are for,
 how they are delivered,
 and how they are maintained.
+Largely as a result of this training,
+several hundred people per year now contribute to Software Carpentry's lessons.
 
 \rulemajor{Encourage and empower contributors}
 
-Making the process for contributing to a lesson explicit is
-the key to receiving contributions.
-New contributors require a straightforward and transparent introduction
-to understand the process of tweaking and adapting lessons.
-Licensing, code of conduct, governance, and contribution procedure
-all need to be explicit rather than implicit
+Making the process for contributing to a lesson simple and transparent
+is the key to receiving contributions.
+Licensing, code of conduct, governance, and the review and publication process
+must all be explicit rather than implicit
 to lower the social barriers to contribution.
 
 Tools can help,
 especially if they allow proposed changes to be viewed and discussed
-prior to their incorporation into the lessons
-(in open source software development this is known as ``pre-merge review'').
-Providing a gentle on-ramp for new contributors is essential,
-but some tools come with a considerable up-front learning curve.
-Housing lessons on GitHub (a web-based version control system)
-with changes suggested via pull requests (requests to incorporate changes) is
-ideal for pre-merge review, for instance,
-but it requires contributors to know how to use Git,
+prior to their incorporation into the lessons.
+(In software development this is known as ``pre-merge review''.)
+However,
+some tools that are popular in open source software development have considerable up-front learning costs.
+Portals like GitHub,
+for example,
+support everything that open lesson development needs,
+but require contributors to use Git,
 which has a notoriously steep learning curve \cite{git-survey}.
-Allowing people to edit a Google Doc or Wiki-based editing does not offer pre-merge review,
-but the low barrier to entry can help get conversations started.
+Google Docs and wikis do not support pre-merge review,
+but their low barrier to entry make them more welcoming to newcomers.
 
-The best way to choose tools for managing lessons
-is to look for those that provide a gentle on-ramp for new contributors.
-Ask potential contributors what they are comfortable with
+The best way to choose tools for managing lessons is
+to ask potential contributors what they are comfortable with
 rather than requiring \emph{them} to come to \emph{you}.
 Remember also that contributing to a lesson is probably not their top priority,
 and look for ways to reduce their cognitive load.
 For example,
-threaded discussion on particular topics (e.g., using GitHub issues)
-can help increase the signal-to-noise ratio
+threaded discussion forums can improve the signal-to-noise ratio
 by reducing long reply-all email exchanges.
-Several open frameworks are available to facilitate
-development of new lessons, such as R-based
-learnr (\url{https://rstudio.github.io/learnr}) or
-GitHub-based Morea (\url{https://morea-framework.github.io}) and
-DataCamp (\url{https://www.datacamp.com/teach/documentation}).
+Several open frameworks are available to facilitate development of new lessons,
+such as R-based learnr (\url{https://rstudio.github.io/learnr})
+or GitHub-based Morea (\url{https://morea-framework.github.io})
+and DataCamp's templates (\url{https://www.datacamp.com/teach/documentation}).
+
+\rulemajor{Build community around lessons}
+
+Software versions and dependencies are constantly changing,
+while the academic literature is advancing at an ever-increasing pace.
+As a result,
+what is cutting edge one year may be out of date the next and simply wrong the year after.
+Collaborative lesson development groups must therefore focus
+on creating a community in which contributors support each other
+rather than on relying on a small group of stewards.
+Authors cannot be expected to maintain continual vigilance on a lesson,
+but this is necessary for continual use.
+
+A key part of doing this is to create opportunities for legitimate peripheral participation \cite{FIXME}.
+Curating a list of small tasks that newcomers can easily tackle,
+encouraging them to give feedback on proposed changes,
+or asking them to add new exercises and tweak diagrams and references
+can all provide an on-ramp for people who might question their authority or ability to change the main body of a lesson.
+Equally,
+acknowledging all contributions,
+however small,
+gives new contributors an early reward for taking part.
 
 Finally,
 working in the open can be great,
 but can also unintentionally suppress voices.
-At Programming Historian,
-for example,
-an ombudsperson is available for private chats and facilitation.
-
-\rulemajor{Build community around lessons}
-
-Encouraging and enabling individual contributions is necessary but not sufficient.
-For technical lessons,
-software versions and dependencies are constantly changing,
-while for more traditional academic lessons the literature is advancing at an ever increasing pace.
-In either case,
-what was cutting edge in 2017 may be dated and less useful in 2018.
-This needs to be clear to contributors,
-so they understand that this lesson is just
-the starting point.
-Sustainability needs to be front of mind.
-
-The focus accordingly needs to be on creating a community in which contributors support each other
-rather than relying on a small group of stewards.
-Authors cannot be expected to maintain continual vigilance on a lesson,
-but this is necessary if one expects continual use of a lesson.
-By working online, creating opportunities for collaboration
-and contribution, many eyes can keep the lesson usable.
-As we describe in Rule~5,
-this only works if you make space for
-little contributions just as you do for larger ones.
+Programming Historian makes an ombudsperson is available for private chats and facilitation
+to ensure that no one is excluded.
 
 \rulemajor{Publish periodically and recognize contributions}
 
 Like software,
-lessons should have releases of fixed content
-so that learners or instructors who may wish to use the material have a stable version to refer to
-for the duration of their use.
-These releases should be periodic
-so that improvements and adjustments are made available
-for new learners and instructors just starting their use.
-Periodic releases are also essential
-for enabling recognition of the contribution of authors and maintainers.
+specific versions of lessons should be published or released periodically
+so that learners or instructors have something stable to refer to for the duration of their use.
+Periodic releases also provide an opportunity
+for recognizing the contributions of new authors and maintainers.
 
 Academia has only a few ways of recognizing contributions.
 Until these are expanded,
 it is important to publish lessons in ways that traditional academic systems can digest.
-One is to give particular releases of lessons
-DOIs supplied by providers such as Zenodo (\url{https://zenodo.org/})
+One is to give releases DOIs supplied by providers such as Zenodo (\url{https://zenodo.org/})
 or DataCite (\url{https://www.datacite.org/}).
 Contributors can be listed as authors
 and the maintainers of the lesson as editors
 to differentiate recognition of their contributions.
 Each time the lesson is published,
-names and identifiers (e.g. ORCIDs (\url{https://orcid.org}))
+names (and identifiers such as ORCIDs (\url{https://orcid.org}))
 should be gathered for all contributors.
 
 A lesson release is a good opportunity to bring the material into a stable shape
 by fixing outstanding issues and merging contributions.
-Version control helps a lot in continuously maintaining a list of contributors
-but also in remembering which version is used for release
+Version control automatically maintains a list of contributors,
+and can also be used to track what content is in what release
 (e.g., using branches or tags).
-Lesson releases should use a consistent naming scheme,
-such as the full year and month of the release,
-e.g. ``2017.05''.
-This is the scheme Software Carpentry has used in
-its releases of its lessons \cite{shell2015,shell2017}.
+Lesson releases should use a consistent naming scheme;
+Software Carpentry has used the year and month of release
+(e.g., ``2017.05'')
+in its releases \cite{shell2015,shell2017}.
 
 If lessons are being released regularly,
-automate the process,
-and archive old versions of lessons in a discoverable location for reference.
+automate the process
+and archive old versions in a discoverable location.
 Also make sure that everyone involved knows what ``done'' look like,
 i.e.,
 which outstanding issues have to be addressed
@@ -565,60 +520,49 @@ and then ticked off as they are completed.
 
 \rulemajor{Evaluate lessons at several scales}
 
-The purpose of feedback is to guide lesson development
-so that authors aren't designing and arguing in a vacuum.
-What people immersed in the lessons think needs fixing
-can often differ from what learners think.
+What people immersed in developing lessons think needs fixing
+can easily differ from what learners think.
+It is therefore critical to gather and act on feedback at several scales
+to check assumptions and stay on course.
 
 Micro-scale feedback can be gathered by an instructor while teaching a particular lesson.
-Learners might provide feedback on things like typographical errors,
-clarity/ease of quiz questions or the order in which topics are presented,
-which the instructor can enter into a work-tracking system (e.g., GitHub issues) at the end of class.
+Learners can provide feedback on everything from typographical errors
+and the clarity of quiz questions
+to the order in which topics are presented,
+all of which the instructor should record at the end of each class
+in some shared location (such as a Google Doc or GitHub issues).
 As well as encouraging direct verbal feedback,
 it's a good idea to provide learners with a means to provide feedback anonymously during class
-(e.g., on small pieces of paper like sticky notes).
+(e.g., on small pieces of paper like sticky notes or through anonymous surveys).
 
 Pre- and post-class surveys can be used to discover larger macro-scale issues.
-These issues often relate to the fact that it can be difficult for lesson developers
-to fully understand the frame of reference of their audience.
-For instance, a lesson might inadvertently assume prior knowledge that learners do not have,
-which is information that can be collected in a survey.
-If possible, it's a good idea to conduct the post-class survey 30--60 days after the fact.
+These often relate to the difficulty lesson developers may have
+fully understanding the frame of reference of their audience,
+e.g.,
+assuming prior knowledge that learners do not have.
+If possible,
+post-class surveys should be conducted 30--60 days after class.
 This delay allows people time to reflect,
 meaning they are more likely to give accurate feedback on what they learned
 rather than how entertained they were.
 
-Pre- and post-class surveys also are essential in focusing in on the audience for a given lesson.
-Referring back to Rule~1,
-it can sometimes be difficult for lesson developers to understand the frame of a given learner,
-so surveys (particularly post-class surveys) can reveal hidden assumed knowledge
-that can be expanded on or acknowledged to refine the target audience.
-This is one example of a larger guideline:
-when processing feedback,
-separate items that apply to specific lessons (and can guide its future development)
-from those that are better tackled elsewhere
-(e.g., by developing new lessons or through organizational change).
-
 \rulemajor{Reduce, re-use, recycle}
 
-Do not create a new lesson if there is an existing one that you can use or contribute to.
 Just as a scholar would not write a paper without a literature review,
-the same holds for lessons.
-Before writing that introduction to the Bash command line,
-for example,
-do a search:
-has anybody else written it?
-Is it complementary to your goals?
-Could it be tweaked or modified to meet your own goals?
-Could your planned lesson be tweaked to compliment the existing lessons so that topics aren't duplicated?
+an instructor should not create a new lesson if there is an existing one they could use or contribute to.
+A short online search can discover if someone has written what you need,
+whether it is complementary to your goals,
+and if it can be tweaked or modified to meet your needs.
 
 Before re-using content,
-make sure to check that the lesson is licensed in an open manner.
+make sure to check its license.
 Both Programming Historian and the Carpentry projects
-use the Creative Commons - Attribution license
+use the Creative Commons--Attribution license
 (\url{https://creativecommons.org/licenses/by/4.0/}),
 which allows people to share and adapt material for any purpose
 as long as they cite the original source.
+Other Creative Commons licenses may restrict commercial use
+and/or creation of derivative materials.
 
 The same questions of re-use come when thinking about recycling content of a lesson,
 such as images, data, figure, or code.
@@ -788,5 +732,38 @@ Barriers to faculty pedagogical change: Lack of training, time, incentives, and.
 \newblock 10.1187/cbe.12-09-0163.
 
 \end{thebibliography}
+
+%%%%% Figure  dissociation
+\begin{figure}[ht]  % h = here, t = top, b = bottom, p = float
+\includegraphics[width=\linewidth]{figure1}
+\caption{Graphical abstract of 10 simple rules for collaborative lesson development}
+\label{figure1}
+\end{figure}
+%
+
+\begin{mdframed}
+
+\noindent
+Box 1: Learner Profile
+
+Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
+While fluent in both Spanish and English,
+he has a hearing disability that sometimes makes it hard for him to understand lectures,
+particularly in noisy environments.
+Other than using Excel, Word, and the Internet,
+Jorge's most significant previous experience with computers is
+helping his sister build a WordPress site for the family business.
+
+Jorge needs to measure properties of soil from nearby farms
+using a handheld device that sends text files to his computer.
+Right now, Jorge has to open each file in Excel,
+crop the first and last points,
+and calculate an average.
+This workshop will show Jorge how to write a little Python program
+to read the data,
+select the right values from each file,
+and calculate the required statistics.
+
+\end{mdframed}
 
 \end{document}
