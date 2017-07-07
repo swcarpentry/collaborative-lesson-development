@@ -72,11 +72,27 @@ that lessons should be:
     contributors.
 
 All open education projects satisfy the first criterion by definition,
-but few satisfy the second. While their lessons are occasionally updated
-by a small team (as happens when a new edition of a book is edited and
-published), this is not the same as continuous improvement by a large
-community of contributors. The ten simple rules that follow summarize
-what we have learned about doing that.
+but few satisfy the second. While their lessons are occasionally
+updated by a small team (as happens when a new edition of a book is
+edited and published), this is not the same as continuous improvement
+by a large community of contributors. The ten simple rules that follow
+summarize what we have learned about doing that as maintainers,
+editors, and reviewers of lessons used by tens of thousands of people
+(Fig. 1, 2).
+
+**Acknowledgments**
+
+We are grateful to everyone who provided feedback on this paper,
+including
+James Baker,
+Nathan Moore,
+Pariksheet Nanda,
+Tom Pollard,
+Byron Smith,
+and Andrew Walker.
+We are also grateful to the hundreds of people who have contributed to
+Programming Historian, Data Carpentry, Software Carpentry, and Library Carpentry
+over many years.
 
 ## 1) Clarify your audience
 
@@ -89,12 +105,12 @@ If different contributors believe different things about prerequisite
 knowledge, equipment or software required, or how much time learners
 will have, they will find it difficult to work together.
 
-Rather than itemizing prior knowledge and learning objectives, it can be
+Instead of starting with learning objectives (Rule 3), it can be
 helpful to write *learner profiles* to clarify the learner's general
 background, what they already know, what *they* think they want to do,
-how the material will help them, and any special needs they might have.
-This technique is borrowed from user interface design, and a typical
-learner profile is presented in Box 1.
+how the material will help them, and any special needs they might
+have.  This technique is borrowed from user interface design, and a
+typical learner profile is presented in Box 1.
 
 ## 2) Make lessons modular
 
@@ -108,13 +124,13 @@ easier if lessons clearly define what they cover
 (Rule 1), and if lessons have been designed by people
 with a shared world-view (Rule 3).
 
-One way to achieve this is to take existing courses and break them down
-into smaller, single-purpose modules (a change which has pedagogical and
-administrative advantages in its own right). When this is done, these
-modules can be made more discoverable by referencing specific points in
-the model curricula promulgated by many professional societies. Smaller
-modules are also more approachable for new contributors
-(Rule 4).
+One way to achieve this is to take existing courses and break them
+down into smaller, single-purpose modules (a change which has
+pedagogical and administrative advantages in its own right). When this
+is done, these modules can be made more discoverable by referencing
+specific points in the model curricula promulgated by many
+professional societies (e.g., as learning objectives). Smaller modules
+are also more approachable for new contributors (Rule 4).
 
 ## 3) Teach best practices for lesson development
 
@@ -173,8 +189,15 @@ tools that are popular in open source software development have
 considerable up-front learning costs. Portals like GitHub, for example,
 support everything that open lesson development needs, but require
 contributors to use Git, which has a notoriously steep learning curve
-[git-survey]. Google Docs and wikis do not support pre-merge review,
-but their low barrier to entry make them more welcoming to newcomers.
+[git-survey].
+
+Complicating matters further, some file formats make collaboration
+easier or more difficult.  Despite their ubiquity, open source version
+control systems do not directly support review or merge of Microsoft
+Office or LibreOffice file formats, which raises an additional burden
+for newcomers [jacobs].  Programmers may look down on Google Docs and
+wikis for their lack of pre-merge review and other capabilities, but
+their low barrier to entry make them more welcoming to newcomers.
 
 The best way to choose tools for managing lessons is to ask potential
 contributors what they are comfortable with rather than requiring *them*
@@ -265,13 +288,15 @@ good idea to provide learners with a means to provide feedback
 anonymously during class (e.g., on small pieces of paper like sticky
 notes or through anonymous surveys).
 
-Pre- and post-class surveys should be used to uncover larger issues,
-particularly those arising from developers not fully understanding their
-audience, e.g., assuming prior knowledge that learners do not have.
-Post-class surveys are most effective when conducted 30-90 days after
-class; this gives people time to reflect, so their feedback will more
-accurately reflect what they learned rather than how entertained they
-were.
+Pre- and post-class surveys and interviews should be used to uncover
+larger issues, particularly those arising from developers not fully
+understanding their audience, e.g., assuming prior knowledge that
+learners do not have.  Post-class surveys are most effective when
+conducted 30-90 days after class; this gives people time to reflect,
+so their feedback will more accurately reflect what they learned
+rather than how entertained they were.  Clearly-stated learning
+objectives (Rule 3) are essential here, as they tell assessors what
+they should be measuring.
 
 ## 8) Reduce, re-use, recycle
 
@@ -367,9 +392,6 @@ impact and less effort.
 
 ## Bibliography
 
-[hlw] Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How Learning
-Works. Jossey-Bass; 2010.
-
 [brownell] Brownell S. E. and Tanner K. D.: Barriers to faculty pedagogical change:
 Lack of training, time, incentives, and...tensions with professional
 identity? CBE Life Sciences Education, 11(4), 2012,
@@ -378,29 +400,41 @@ identity? CBE Life Sciences Education, 11(4), 2012,
 [choral-explanations] Caulfield M. Choral Explanations; 2016.
 <https://hapgood.us/2016/05/13/choral-explanations/>.
 
+[git-survey] GitLab Global Developer Survey.
+<http://get.gitlab.com/global-developer-survey/>, 2016.
+
+[hlw] Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK. How Learning
+Works. Jossey-Bass; 2010.
+
+[how-to-teach-programming] Wilson G. How to Teach Programming (And Other Things). Lulu.com; 2017.
+
+[instructor-training] Koch C. and Wilson G. (eds.) Software Carpentry: Instructor Training;
+2016. <https://zenodo.org/record/57571#.WS8huDOZPdQ>.
+
+[jacobs] Jacobs C.T., Gorman G.J., Rees H.E., and Craig L.E.:
+Experiences With Efficient Methodologies for Teaching Computer
+Programming to Geoscientists.  *Journal of Geoscience Education*,
+64(3), 2016, 10.5408/15-101.1.
+
+[lessons-learned] Wilson G. Software Carpentry: Lessons Learned. F1000Research, 3(62),
+2016, 10.12688/f1000research.3-62.v2.
+
+[producing-oss] Fogel K. Producing Open Source Software. O'Reilly; 2005.
+
 [shell2015] Devenyi G. A. and Koch C. (eds.): Software Carpentry: The Unix Shell;
 2015. <https://zenodo.org/record/27355#.WS8lajOZPdQ>.
 
 [shell2017] Devenyi G. A. and Srinath A. (eds.): Software Carpentry: The Unix Shell;
 2017. <https://zenodo.org/record/278226#.WS74tTOZPdQ>.
 
-[producing-oss] Fogel K. Producing Open Source Software. O'Reilly; 2005.
-
-[git-survey] GitLab Global Developer Survey.
-<http://get.gitlab.com/global-developer-survey/>, 2016.
-
-[instructor-training] Koch C. and Wilson G. (eds.) Software Carpentry: Instructor Training;
-2016. <https://zenodo.org/record/57571#.WS8huDOZPdQ>.
-
-[wiggins-mctighe] Wiggins G, McTighe J. Understanding by Design. 2nd ed. Association for
+[wiggins-mctighe] Wiggins G. and McTighe J. Understanding by Design. 2nd ed. Association for
 Supervision and Curriculum Development; 2005.
 
-[lessons-learned] Wilson G. Software Carpentry: Lessons Learned. F1000Research, 3(62),
-2016, 10.12688/f1000research.3-62.v2.
-
-[how-to-teach-programming] Wilson G. How to Teach Programming (And Other Things). Lulu.com; 2017.
+## Figures
 
 ![Graphical abstract of 10 simple rules for collaborative lesson development](figure1.svg)
+
+![Collaborative open lesson development](figure2.svg)
 
 ## Box 1: Learner Profile
 
