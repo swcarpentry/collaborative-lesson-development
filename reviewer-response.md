@@ -28,7 +28,7 @@ Overall this paper is very well written and to the point. Only a few minor comme
 
 5) In Rule #5, it would be helpful if the authors redirected to Rule #6 when discussing recognizing contributions.
 
-**On reflection, we liked the divison that we had between Rule #5 and Rule #6, and did not want to rebalance between the two rules. We considered adding some signposting between the two rules, but felt it was unnecessary given their proximity.**
+**On reflection, we liked the division that we had between Rule #5 and Rule #6, and did not want to re-balance between the two rules. We considered adding some signposting between the two rules, but felt it was unnecessary given their proximity.**
 
 6) Line 251, sustainable lessons 'in all domains'
 
@@ -80,7 +80,7 @@ We agreed with this criticism and revised the paper accordingly. We did this in 
 
 **First, in the submission version, we had both an abstract and an author summary right after each other. We removed the author summary and worked the text into the abstract, fleshing things out. Given that our paper is not technical we did not believe that an author summary was warranted.**
 
-**Secondly, we expanded the introduction itself. We did so by clarifying the criteria around open education projects, and further reinforced the benefits of this approach: noting higher-qualtiy lessons, ensuring that lessons were up-to-date, and how individual time on behalf of authors is less. Some of this was in the lessons but we agreed that the introdution needed to frame.**
+**Secondly, we expanded the introduction itself. We did so by clarifying the criteria around open education projects, and further reinforced the benefits of this approach: noting higher-quality lessons, ensuring that lessons were up-to-date, and how individual time on behalf of authors is less. Some of this was in the lessons but we agreed that the introduction needed to frame.**
 
 **We did not address concerns around how some might have reservations about "the coherency of modules made by contributors that likely span a range of experience" as we felt that coherence can come from Rule #3.**
 
