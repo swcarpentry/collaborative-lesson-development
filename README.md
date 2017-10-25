@@ -14,85 +14,75 @@ Greg Wilson<sup>7*</sup>
 4. The University of Texas at Tyler / khertweck@uttyler.edu
 5. CSIRO Oceans and Atmosphere / irving.damien@gmail.com
 6. University of Waterloo / i2millig@uwaterloo.ca
-7. Rangle.io / gvwilson@third-bit.com (corresponding author)
+7. DataCamp / gvwilson@third-bit.com (corresponding author)
 
 These authors contributed equally to this work.
 
 ## Abstract
 
-The collaborative development methods pioneered by the open source
-software community offer a way to create lessons that are open,
-accessible, and sustainable. This paper presents ten simple rules for
-doing this drawn from our experience with several successful projects.
-
-## Author summary
-
-Lessons take significant effort to build and maintain. We have found
-that the collaborative development methods pioneered by the open source
-software community are an effective, economical way to create and
-sustain lessons that can be used by large numbers of people in a wide
-variety of contexts. The ten simple rules outlined in this paper
-summarize the best practices that we have helped evolve in several
-successful open education projects aimed at researchers and research
-librarians in a wide range of disciplines.
+Lessons take significant effort to build and maintain.
+The collaborative development methods pioneered by the open source software community
+offer an effective, economical way to create and sustain lessons
+that can be used by large numbers of people in a wide variety of contexts.
+The ten simple rules outlined in this paper
+summarize the best practices that have been implemented
+by several successful open education projects aimed at researchers and research librarians
+in a wide range of disciplines.
 
 ## Introduction
 
-Lessons take significant effort to build and even more to maintain. Most
-academics do this work on their own, but leveraging a community approach
-can make educational resource development more sustainable, robust, and
-responsive. Treating lessons as a community resource to be updated,
-adapted, and improved incrementally, can free up valuable time while
-increasing quality.
+Lessons take significant effort to build and even more to maintain.
+Most academics do this work on their own,
+but leveraging a community approach
+can make educational resource development more sustainable, robust, and responsive.
+Treating lessons as a community resource
+to be updated, adapted, and improved incrementally,
+can free up valuable time while increasing quality.
 
-Despite the success of openness in software development and the curation
-of Wikipedia, it is an uncommon approach in accademic settings. Each
-year, thousands of university lecturers teach subjects ranging from
-first year biology, to graduate-level courses in Indian film. Some use
-textbooks written by one or a few authors, but beyond that, they develop
-and maintain their course materials in isolation. This is curious given
-that research depends critically on sharing, and that most researchers
-complain about how much time teaching takes away from research, but the
-sociology and pscyhology behind this blind spot are out of the scope of
-this paper.
+Despite the success of openness in software development and the curation of Wikipedia,
+it is an uncommon approach in the academic instructional setting.
+Each year,
+thousands of university lecturers teach subjects ranging from first year biology,
+to graduate-level courses in Indian film.
+Some use textbooks written by one or a few authors,
+but beyond that,
+they develop and maintain their course materials in isolation.
 
-The authors have many years of experience with community-developed
-lessons in the context of research computing in the sciences and
-humanities through organizations like Software Carpentry and Programming
-Historian. Software Carpentry was founded in 1998 to teach scientists
-basic computing skills, and has since spawned two sibling organizations
-called Data Carpentry and Library Carpentry. Programming Historian was
-founded in 2008, and has evolved into a collaboratively-edited site
-providing lessons to humanities scholars. Their guiding principles are
-that lessons should be:
+Given that academic research often depends on sharing, the differing
+approach to developing pedagogical materials is interesting,
+but the sociology and psychology behind this blind spot are beyond the scope of this paper.
+
+
+The authors have many years of experience with community-developed lessons
+in the context of research computing in the sciences and humanities,
+through organizations like Software Carpentry and Programming Historian.
+Software Carpentry was founded in 1998 to teach scientists basic computing skills,
+and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
+Programming Historian was founded in 2008,
+and has evolved into a collaboratively-edited site providing lessons to humanities scholars.
+Their guiding principles are that lessons should be:
 
 1.  open and easily accessible, and
 
 2.  continually maintained, refined, and improved by a community of
     contributors.
 
-All open education projects satisfy the first criterion by definition,
-but few satisfy the second. While their lessons are occasionally
-updated by a small team (as happens when a new edition of a book is
-edited and published), this is not the same as continuous improvement
-by a large community of contributors. The ten simple rules that follow
-summarize what we have learned about doing that as maintainers,
-editors, and reviewers of lessons used by tens of thousands of people
-(Fig. 1, 2).
+All open education projects (e.g. massive open online courses) satisfy the first criterion by definition,
+but very few satisfy the second.
+In other words,
+while it is common for open education projects to be occasionally updated by an individual or small team
+(as happens when a new edition of a book is edited and published),
+this is not the same as continuous improvement by a large community of contributors.
+The ten simple rules that follow summarize what we have learned about doing that
+as maintainers, editors, and reviewers of lessons used by tens of thousands of people (Fig. 1, 2).
+By following these rules,
+we contend that it is possible to create higher quality lessons 
+than could be created by an individual or small team,
+both in terms of accuracy and pedagogy.
+As an added bonus, the lessons are always up-to-date 
+and require less time per author to develop and maintain.
 
-**Acknowledgments**
 
-We are grateful to everyone who provided feedback on this paper,
-including
-James Baker,
-Nathan Moore,
-Pariksheet Nanda,
-Tom Pollard,
-Byron Smith,
-and Andrew Walker.
-We are also grateful to the hundreds of people who have contributed to
-Programming Historian, Data Carpentry, Software Carpentry, and Library Carpentry
-over many years.
 
 ## 1) Clarify your audience
 
@@ -134,46 +124,42 @@ are also more approachable for new contributors (Rule 4).
 
 ## 3) Teach best practices for lesson development
 
-Decades of pedagogical research has yielded many insights into how best
-to build and deliver lessons [hlw]. Unfortunately, many college and
-university faculty have little or no training in education
-[brownell], so this knowledge is rarely applied in the classroom.
+Decades of pedagogical research have yielded many insights into
+how best to build and deliver lessons.
+Unfortunately,
+many college and university faculty have little or no formal training in education \cite{brownell},
+so this knowledge is rarely applied in the classroom.
 
 Our experience is that even a brief introduction to a few key practices
-helps collaborative lesson development. If people have a shared
-understanding of how lessons should be developed, it is easier for them
-to work together. Less obviously, if people have a shared model of how
-lessons will be *used*, they are more likely to build reusable material.
-Finally, teaching people how to teach is a great way to introduce them
-to each other and build community.
+helps collaborative lesson development.
+If people have a shared understanding of how lessons should be developed,
+it is easier for them to work together.
+Less obviously,
+if people have a shared model of how lessons will be \emph{used},
+they are more likely to build reusable material.
+Finally,
+teaching people how to teach is a great way to introduce them to each other and build community (Fig. 2).
 
-One popular lesson development methodology is presented in
-[wiggins-mctighe]. When this is used, lessons are built by:
+By way of example, Software Carpentry encourages its volunteers to use
+the popular lesson development methodology presented by,
+whereby learning objectives and assessments are created *before* any lesson materials are developed.
+In particular, *summative assessments* are created to determine whether the learning objectives have been met,
+and *formative assessments* are created to gauge learners' progress and to give them a chance to practice key skills.
+The completed formative assessments are put in order and only then are the lessons written, 
+with the aim of connecting each formative assessment to the next.
+This method is effective in its own right,
+but its greatest benefit is that it gives everyone a framework for collaboration.
 
-1.  identifying learning objectives,
-
-2.  creating *summative assessments* to determine whether those
-    objectives have been met,
-
-3.  designing *formative assessments* to gauge learners' progress and
-    give them a chance to practice key skills,
-
-4.  putting those formative assessments in order,
-
-5.  and only then writing lessons to connect each to the next.
-
-This method is effective in its own right, but its greatest benefit is
-that it gives everyone a framework for collaboration.
-
-An example of how to teach these practices is Software Carpentry's
-instructor training program. First offered in 2012, is now a two-day
-course delivered both in-person and online
-[lessons-learned, instructor-training, how-to-teach-programming].
-This program teaches good pedagogical practices, and introduces everyone
-who takes it to who Software Carpentry's lessons are for, how they are
-delivered, and how they are maintained. Largely as a result of this
-training, several hundred people per year now contribute to Software
-Carpentry's lessons.
+An example of how to teach such pedagogical practices
+is Software Carpentry's instructor training program.
+First offered in 2012,
+it is now a two-day course delivered both in-person and online.
+In addition to a focus on pedagogy,
+the course introduces everyone who takes it to who Software Carpentry's lessons are for,
+how they are delivered,
+and how they are maintained.
+Largely as a result of this training,
+several hundred people per year now contribute to Software Carpentry's lessons.
 
 ## 4) Encourage and empower contributors
 
@@ -184,18 +170,17 @@ rather than implicit to lower the social barriers to contribution.
 
 Tools can help, especially if they allow proposed changes to be viewed
 and discussed prior to their incorporation into the lessons. (In
-software development this is known as ``pre-merge review''.) However, some
+software development this is known as "pre-merge review".) However, some
 tools that are popular in open source software development have
 considerable up-front learning costs. Portals like GitHub, for example,
 support everything that open lesson development needs, but require
-contributors to use Git, which has a notoriously steep learning curve
-[git-survey].
+contributors to use Git, which has a notoriously steep learning curve.
 
 Complicating matters further, some file formats make collaboration
 easier or more difficult.  Despite their ubiquity, open source version
 control systems do not directly support review or merge of Microsoft
 Office or LibreOffice file formats, which raises an additional burden
-for newcomers [jacobs].  Programmers may look down on Google Docs and
+for newcomers.  Programmers may look down on Google Docs and
 wikis for their lack of pre-merge review and other capabilities, but
 their low barrier to entry make them more welcoming to newcomers.
 
@@ -206,9 +191,9 @@ probably not their top priority, and look for ways to reduce their
 cognitive load. For example, threaded discussion forums can improve the
 signal-to-noise ratio by reducing long reply-all email exchanges.
 Several open frameworks are available to facilitate development of new
-lessons, such as R-based learnr (<https://rstudio.github.io/learnr>) or
-GitHub-based Morea (<https://morea-framework.github.io>) and DataCamp's
-templates (<https://www.datacamp.com/teach/documentation>).
+lessons, such as [R-based learnr](https://rstudio.github.io/learnr) or
+[GitHub-based Morea](https://morea-framework.github.io) and [DataCamp's
+templates](https://www.datacamp.com/teach/documentation).
 
 ## 5) Build community around lessons
 
@@ -259,11 +244,11 @@ Version control automatically maintains a list of contributors, and can
 also be used to track what content is in what release (e.g., using
 branches or tags). Lesson releases should use a consistent naming
 scheme; Software Carpentry has used the year and month of release (e.g.,
-``2017.05'') in its releases [shell2015, shell2017].
+"2017.05") in its releases.
 
 If lessons are being released regularly, automate the process and
 archive old versions in a discoverable location. Also make sure that
-everyone involved knows what ``done'' look like, i.e., which outstanding
+everyone involved knows what "done" look like, i.e., which outstanding
 issues have to be addressed and how it has to be formatted in order for
 the next release to go out. A simple checklist stored with the lesson
 materials is good enough to start, but as time goes by, the community
@@ -321,7 +306,7 @@ material.
 
 The converse of this rule is to make the license for your lessons
 explicit and discoverable. For example, when lessons are published
-(Rule 6), make sure that that keywords such as ``CC-BY''
+(Rule 6), make sure that that keywords such as "CC-BY"
 appear in their bibliography entries and HTML page headers.
 
 ## 9) Link to other resources
@@ -361,7 +346,7 @@ thing with different levels of performance and complexity.
 
 Similarly, no lesson development community can serve all purposes. Some
 groups may prioritize rapid evolution, while others may prefer a
-``measure twice, cut once'' approach. If there are complementary ways to
+"measure twice, cut once" approach. If there are complementary ways to
 explain something, or points of view that can cohabit respectfully, it
 may be possible to present them side by side. There are good pedagogical
 reasons to do this even if contributors *do not* disagree: weighing
@@ -389,6 +374,20 @@ model of collaborative software development to make more robust and
 sustainable lessons that can be continually improved by those who use
 them. We hope that our experiences can help others teach more with more
 impact and less effort.
+
+## Acknowledgments
+
+We are grateful to everyone who provided feedback on this paper,
+including
+James Baker,
+Nathan Moore,
+Pariksheet Nanda,
+Tom Pollard,
+Byron Smith,
+and Andrew Walker.
+We are also grateful to the hundreds of people who have contributed to
+Programming Historian, Data Carpentry, Software Carpentry, and Library Carpentry
+over many years.
 
 ## Bibliography
 
@@ -432,9 +431,17 @@ Supervision and Curriculum Development; 2005.
 
 ## Figures
 
-![Graphical abstract of 10 simple rules for collaborative lesson development](figure1.svg)
+![Graphical abstract of 10 simple rules for collaborative lesson development](figure1.png)
+Fig 1. Graphical abstract of ten simple rules for collaborative lesson development.} 
+1)To clarify your audience, consider writing learner profiles (see Box 1). 2) Make lessons modular by breaking them into small, single-purpose modules. 3) Teach your instructors the best practices for developing, delivering, and maintaining lessons. 4) Encourage and empower contributors by making the contribution process transparent and straightforward. 5) Build a community around lessons by creating opportunities for participation and mentorship. 3) Publish new version periodically and recognize contributors by their unique identifiers (e.g., ORCID). 7) Evaluate lessons during and after class for a complete picture of the lessons' efficacy. 8) Reduce, re-use, or recycle lessons before creating a new one from scratch. 9) Link to other resources that complement the lesson content. 10) Remember that you can't please everyone in your audience or community.
 
-![Collaborative open lesson development](figure2.svg)
+![Collaborative open lesson development](figure2.png)
+Fig 2. Collaborative open lesson development. Following the decision to develop 
+lessons, activities focus on lesson development as well as community building. 
+Boxes surrounded by dotten lines represent community contributions to lessons.
+Dashed arrows represent connections to activities outside the original lesson design.
+The box enclosed in a dash-dotted line represents unaffiliated learning resources.
+
 
 ## Box 1: Learner Profile
 
