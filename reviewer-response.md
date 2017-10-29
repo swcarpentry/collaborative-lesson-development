@@ -1,8 +1,11 @@
-Dear Dr. Markel –
+Dear Dr. Markel,
 
 Thanks for your engagement with our paper, "Ten simple rules for collaborative lesson development." We appreciated the reviewer's engagement with the piece, and were gratified to see that the ideas generally resonated with them. Please accept our revised version and we look forward to hearing from you soon.
 
 We have provided point-by-point reviewer responses below.
+
+Sincerely,
+Gabriel A. Devenyi, Rémi Emonet, Rayna M. Harris, Kate L. Hertweck, Damien Irving, Ian Milligan, and Greg Wilson
 
 # Reviewer #1
 
