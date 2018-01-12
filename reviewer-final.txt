@@ -1,0 +1,11 @@
+1.  Please add 'gvwilson@third-bit.com' to the details of the corresponding author.
+
+2.  Affiliations section reorganized as requested: cities and countries added, all email addresses removed except for that of corresponding author.
+
+3.  Citations reorganized to appear in ascending numerical order.
+
+4.  The legends for the figures *do* currently appear immediately under the paragraph in which they are first referenced, and as these figures are purely text, we included them in the LaTeX document (see previous correspondence with your editorial team).
+
+5.  This work was not funded, so the Financial Disclosure section is correct as written.  Similarly, it is inaccurate to state as requested that "The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.", since there were no funders.
+
+6.  You did not indicate how you wanted changes marked up in the PDF for resubmission.
