@@ -277,7 +277,7 @@ but the sociology and psychology behind this blind spot are beyond the scope of 
 
 The authors have many years of experience with community-developed lessons
 in the context of research computing in the sciences and humanities,
-through organizations like Software Carpentry and Programming Historian.
+through organizations like Software Carpentry and Programming Historian \cite{proghist}.
 Software Carpentry was founded in 1998 to teach scientists basic computing skills,
 and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
 Programming Historian was founded in 2008,
@@ -319,7 +319,7 @@ and require less time per author to develop and maintain.
 \noindent
 \textbf{Fig 2. Collaborative open lesson development.} Following the decision to develop 
 lessons, activities focus on lesson development as well as community building. 
-Boxes surrounded by dotten lines represent community contributions to lessons.
+Boxes surrounded by dotted lines represent community contributions to lessons.
 Dashed arrows represent connections to activities outside the original lesson design.
 The box enclosed in a dash-dotted line represents unaffiliated learning resources.
 \end{mdframed}
@@ -347,6 +347,31 @@ how the material will help them,
 and any special needs they might have.
 This technique is borrowed from user interface design,
 and a typical learner profile is presented in Box~1.
+
+\begin{mdframed}
+
+\noindent
+Box 1: Learner Profile
+
+Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
+While fluent in both Spanish and English,
+he has a hearing disability that sometimes makes it hard for him to understand lectures,
+particularly in noisy environments.
+Other than using Excel, Word, and the Internet,
+Jorge's most significant previous experience with computers is
+helping his sister build a WordPress site for the family business.
+
+Jorge needs to measure properties of soil from nearby farms
+using a handheld device that sends text files to his computer.
+Right now, Jorge has to open each file in Excel,
+crop the first and last points,
+and calculate an average.
+This workshop will show Jorge how to write a little Python program
+to read the data,
+select the right values from each file,
+and calculate the required statistics.
+
+\end{mdframed}
 
 \rulemajor{Make lessons modular}{modular}
 
@@ -706,6 +731,11 @@ over many years.
 
 \begin{thebibliography}{1}
 
+\bibitem{proghist}
+Afanador-Llach MJ, Baker J, Crymble A, Gayol V, Gibbs F, Lincoln M, McDaniel C, Milligan I, Parr J, Castro AR, Knuppel AS, Visconti A, Walsh B, Wieringa J.
+\newblock Programming Historian,
+\newblock \url{https://programminghistorian.org/}.
+
 \bibitem{hlw}
 Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK.
 \newblock How Learning Works.
@@ -790,32 +820,5 @@ Fogel K.
 \caption{Collaborative open lesson development}
 \label{figure2}
 \end{figure}
-
-\newpage
-
-\begin{mdframed}
-
-\noindent
-Box 1: Learner Profile
-
-Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
-While fluent in both Spanish and English,
-he has a hearing disability that sometimes makes it hard for him to understand lectures,
-particularly in noisy environments.
-Other than using Excel, Word, and the Internet,
-Jorge's most significant previous experience with computers is
-helping his sister build a WordPress site for the family business.
-
-Jorge needs to measure properties of soil from nearby farms
-using a handheld device that sends text files to his computer.
-Right now, Jorge has to open each file in Excel,
-crop the first and last points,
-and calculate an average.
-This workshop will show Jorge how to write a little Python program
-to read the data,
-select the right values from each file,
-and calculate the required statistics.
-
-\end{mdframed}
 
 \end{document}
