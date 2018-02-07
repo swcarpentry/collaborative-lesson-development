@@ -197,13 +197,13 @@
 {Greg~Wilson}\textsuperscript{7{\ddag}*}
 \\
 \bigskip
-\textbf{1} Douglas Mental Health University Institute, McGill University / gdevenyi@gmail.com \\
-\textbf{2} Univ Lyon, UJM-Saint-Etienne, F-42023, France / remi.emonet@univ-st-etienne.fr \\
-\textbf{3} The University of Texas at Austin / rayna.harris@utexas.edu \\
-\textbf{4} The University of Texas at Tyler / khertweck@uttyler.edu \\
-\textbf{5} CSIRO Oceans and Atmosphere / irving.damien@gmail.com \\
-\textbf{6} University of Waterloo / i2millig@uwaterloo.ca \\
-\textbf{7} DataCamp / gvwilson@third-bit.com \\
+\textbf{1} Douglas Mental Health University Institute, McGill University, Montreal, Quebec, Canada \\
+\textbf{2} Univ Lyon, UJM-Saint-Etienne, Saint-\'{E}tienne, France \\
+\textbf{3} The University of Texas at Austin, Austin, Texas, USA \\
+\textbf{4} The University of Texas at Tyler, Tyler, Texas, USA \\
+\textbf{5} CSIRO Oceans and Atmosphere, Hobart, Tasmania, Australia \\
+\textbf{6} University of Waterloo, Waterloo, Ontario Canada \\
+\textbf{7} DataCamp, Toronto, Ontario, Canada, gvwilson@third-bit.com \\
 
 \bigskip
 
@@ -277,7 +277,7 @@ but the sociology and psychology behind this blind spot are beyond the scope of 
 
 The authors have many years of experience with community-developed lessons
 in the context of research computing in the sciences and humanities,
-through organizations like Software Carpentry and Programming Historian.
+through organizations like Software Carpentry and Programming Historian \cite{proghist}.
 Software Carpentry was founded in 1998 to teach scientists basic computing skills,
 and has since spawned two sibling organizations called Data Carpentry and Library Carpentry.
 Programming Historian was founded in 2008,
@@ -310,13 +310,19 @@ both in terms of accuracy and pedagogy.
 As an added bonus, the lessons are always up-to-date 
 and require less time per author to develop and maintain.
 
+\begin{mdframed}
+\noindent
 \textbf{Fig 1. Graphical abstract of ten simple rules for collaborative lesson development.} \textbf{1.} To clarify your audience, consider writing learner profiles (see Box 1). \textbf{2.} Make lessons modular by breaking them into small, single-purpose modules. \textbf{3.} Teach your instructors the best practices for developing, delivering, and maintaining lessons. \textbf{4.} Encourage and empower contributors by making the contribution process transparent and straightforward. \textbf{5} Build a community around lessons by creating opportunities for participation and mentorship. \textbf{6.} Publish new version periodically and recognize contributors by their unique identifiers (e.g., ORCID). \textbf{7.} Evaluate lessons during and after class for a complete picture of the lessons' efficacy. \textbf{8.} Reduce, re-use, or recycle lessons before creating a new one from scratch. \textbf{9.} Link to other resources that complement the lesson content. \textbf{10.} Remember that you can't please everyone in your audience or community.
+\end{mdframed}
 
+\begin{mdframed}
+\noindent
 \textbf{Fig 2. Collaborative open lesson development.} Following the decision to develop 
 lessons, activities focus on lesson development as well as community building. 
-Boxes surrounded by dotten lines represent community contributions to lessons.
+Boxes surrounded by dotted lines represent community contributions to lessons.
 Dashed arrows represent connections to activities outside the original lesson design.
 The box enclosed in a dash-dotted line represents unaffiliated learning resources.
+\end{mdframed}
 
 \rulemajor{Clarify your audience}{audience}
 
@@ -341,6 +347,31 @@ how the material will help them,
 and any special needs they might have.
 This technique is borrowed from user interface design,
 and a typical learner profile is presented in Box~1.
+
+\begin{mdframed}
+
+\noindent
+Box 1: Learner Profile
+
+Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
+While fluent in both Spanish and English,
+he has a hearing disability that sometimes makes it hard for him to understand lectures,
+particularly in noisy environments.
+Other than using Excel, Word, and the Internet,
+Jorge's most significant previous experience with computers is
+helping his sister build a WordPress site for the family business.
+
+Jorge needs to measure properties of soil from nearby farms
+using a handheld device that sends text files to his computer.
+Right now, Jorge has to open each file in Excel,
+crop the first and last points,
+and calculate an average.
+This workshop will show Jorge how to write a little Python program
+to read the data,
+select the right values from each file,
+and calculate the required statistics.
+
+\end{mdframed}
 
 \rulemajor{Make lessons modular}{modular}
 
@@ -381,40 +412,23 @@ they are more likely to build reusable material.
 Finally,
 teaching people how to teach is a great way to introduce them to each other and build community (Fig. 2).
 
-One popular lesson development methodology is presented in \cite{wiggins-mctighe}.
-When this is used,
-lessons are built by:
-
-\begin{enumerate}
-
-  \item
-    identifying learning objectives,
-
-  \item
-    creating \emph{summative assessments} to determine whether those objectives have been met,
-
-  \item
-    designing \emph{formative assessments} to gauge learners' progress
-    and give them a chance to practice key skills,
-
-  \item
-    putting those formative assessments in order,
-
-  \item
-    and only then writing lessons to connect each to the next.
-
-\end{enumerate}
-
-\noindent
+By way of example, Software Carpentry encourages its volunteers to use
+the popular lesson development methodology presented by \cite{wiggins-mctighe},
+whereby learning objectives and assessments are created \emph{before} any lesson materials are developed.
+In particular, \emph{summative assessments} are created to determine whether the learning objectives have been met,
+and \emph{formative assessments} are created to gauge learners' progress and to give them a chance to practice key skills.
+The completed formative assessments are put in order and only then are the lessons written, 
+with the aim of connecting each formative assessment to the next.
 This method is effective in its own right,
 but its greatest benefit is that it gives everyone a framework for collaboration.
 
-An example of how to teach these practices is Software Carpentry's (\url{https://software-carpentry.org/}) instructor training program.
+An example of how to teach such pedagogical practices
+is Software Carpentry's instructor training program.
 First offered in 2012,
 it is now a two-day course delivered both in-person and online
 \cite{lessons-learned,instructor-training,how-to-teach-programming}.
-This program teaches good pedagogical practices,
-and introduces everyone who takes it to who Software Carpentry's lessons are for,
+In addition to a focus on pedagogy,
+the course introduces everyone who takes it to who Software Carpentry's lessons are for,
 how they are delivered,
 and how they are maintained.
 Largely as a result of this training,
@@ -486,11 +500,24 @@ acknowledging all contributions,
 however small,
 gives new contributors an early reward for taking part. 
 
+In 2015,
+Software Carpentry established a Mentoring Subcommittee to support instructors
+as they progress through training, teaching, curriculum development.
+The Mentoring Subcommittee has promoted community building
+by providing virtual spaces where instructors from all over the world can share success stories
+and discuss strategies for overcoming challenges.
+This has helped strengthen the community and provided insight into how lessons can be improved
+(\ruleref{evaluate}).
+
 Finally,
 working in the open can be great,
 but can also unintentionally suppress voices.
 Programming Historian makes an ombudsperson available for private chats and facilitation
 to ensure that no one is excluded.
+Software Carpentry operates by a Code of Conduct that outlines acceptable standards of behavior for our community members
+and those interacting with the Carpentries at in-person events and in virtual spaces.
+Community members on a Policy Subcommittee serve as advocates for the Code of Conduct
+and adjudicate reported violations.
 
 \rulemajor{Publish periodically and recognize contributions}{publish}
 
@@ -704,10 +731,22 @@ over many years.
 
 \begin{thebibliography}{1}
 
+\bibitem{proghist}
+Afanador-Llach MJ, Baker J, Crymble A, Gayol V, Gibbs F, Lincoln M, McDaniel C, Milligan I, Parr J, Castro AR, Knuppel AS, Visconti A, Walsh B, Wieringa J.
+\newblock Programming Historian,
+\newblock \url{https://programminghistorian.org/}.
+
 \bibitem{hlw}
 Ambrose SA, Bridges MW, DiPietro M, Lovett MC, Norman MK.
 \newblock How Learning Works.
 \newblock Jossey-Bass; 2010.
+
+\bibitem{brownell}
+Brownell S.~E. and Tanner K.~D.:
+Barriers to faculty pedagogical change: Lack of training, time, incentives, and...tensions with professional identity?
+\newblock CBE Life Sciences Education,
+\newblock 11(4), 2012,
+\newblock 10.1187/cbe.12-09-0163.
 
 \bibitem{wiggins-mctighe}
 Wiggins G, McTighe J.
@@ -730,6 +769,19 @@ Wilson G.
 \newblock How to Teach Programming (And Other Things).
 \newblock Lulu.com; 2017.
 
+\bibitem{git-survey}
+GitLab
+\newblock Global Developer Survey.
+\newblock \url{http://get.gitlab.com/global-developer-survey/}, 2016.
+
+\bibitem{jacobs}
+Jacobs C.~T., Gorman G.~J., Rees H.~E., and Craig L.~E.:
+Experiences With Efficient Methodologies for Teaching Computer Programming to Geoscientists
+\newblock Journal of Geoscience Education
+\newblock 64(3),
+\newblock 2016,
+\newblock 10.5408/15-101.1
+
 \bibitem{shell2015}
 Devenyi G.~A. and Koch C. (eds.):
 Software Carpentry: The Unix Shell; 2015.
@@ -748,26 +800,6 @@ Caulfield M. Choral Explanations; 2016.
 Fogel K.
 \newblock Producing Open Source Software.
 \newblock O'Reilly; 2005.
-
-\bibitem{git-survey}
-GitLab
-\newblock Global Developer Survey.
-\newblock \url{http://get.gitlab.com/global-developer-survey/}, 2016.
-
-\bibitem{brownell}
-Brownell S.~E. and Tanner K.~D.:
-Barriers to faculty pedagogical change: Lack of training, time, incentives, and...tensions with professional identity?
-\newblock CBE Life Sciences Education,
-\newblock 11(4), 2012,
-\newblock 10.1187/cbe.12-09-0163.
-
-\bibitem{jacobs}
-Jacobs C.~T., Gorman G.~J., Rees H.~E., and Craig L.~E.:
-Experiences With Efficient Methodologies for Teaching Computer Programming to Geoscientists
-\newblock Journal of Geoscience Education
-\newblock 64(3),
-\newblock 2016,
-\newblock 10.5408/15-101.1
 
 \end{thebibliography}
 
@@ -788,32 +820,5 @@ Experiences With Efficient Methodologies for Teaching Computer Programming to Ge
 \caption{Collaborative open lesson development}
 \label{figure2}
 \end{figure}
-
-\newpage
-
-\begin{mdframed}
-
-\noindent
-Box 1: Learner Profile
-
-Jorge has just moved from Costa Rica to Canada to study agricultural engineering.
-While fluent in both Spanish and English,
-he has a hearing disability that sometimes makes it hard for him to understand lectures,
-particularly in noisy environments.
-Other than using Excel, Word, and the Internet,
-Jorge's most significant previous experience with computers is
-helping his sister build a WordPress site for the family business.
-
-Jorge needs to measure properties of soil from nearby farms
-using a handheld device that sends text files to his computer.
-Right now, Jorge has to open each file in Excel,
-crop the first and last points,
-and calculate an average.
-This workshop will show Jorge how to write a little Python program
-to read the data,
-select the right values from each file,
-and calculate the required statistics.
-
-\end{mdframed}
 
 \end{document}
