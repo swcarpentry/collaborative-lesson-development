@@ -1,6 +1,6 @@
 LATEX=pdflatex
 BIBTEX=bibtex
-STEM=paper
+STEM=10-collab-lesson
 
 all : commands
 
