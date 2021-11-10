@@ -3,7 +3,7 @@ message: "Please cite this paper as shown."
 authors:
 - family-names: "Devenyi"
   given-names: "Gabriel A."
-  orcid: ""
+  orcid: "https://orcid.org/0000-0002-7766-1187"
 - family-names: "Emonet"
   given-names: "Rémi"
   orcid: "https://orcid.org/0000-0002-1870-1329"
@@ -28,7 +28,7 @@ preferred-citation:
   authors:
   - family-names: "Devenyi"
     given-names: "Gabriel A."
-    orcid: ""
+    orcid: "https://orcid.org/0000-0002-7766-1187"
   - family-names: "Emonet"
     given-names: "Rémi"
     orcid: "https://orcid.org/0000-0002-1870-1329"
